@@ -1,0 +1,576 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 02 09:35:05 CST 2023","Thu Mar 02 09:35:09 CST 2023","4489","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:17:09 CST 2023","Thu Mar 02 09:17:10 CST 2023","1241","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:16:21 CST 2023","Thu Mar 02 09:16:22 CST 2023","1291","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:18:38 CST 2023","Thu Mar 02 09:18:42 CST 2023","4486","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:34:44 CST 2023","Thu Mar 02 09:34:48 CST 2023","4583","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:20:32 CST 2023","Thu Mar 02 09:20:45 CST 2023","12120","test_api","test_product","","","","Search product success with ""洋裝"" keywork",""
+"passed","Thu Mar 02 09:25:31 CST 2023","Thu Mar 02 09:25:48 CST 2023","16781","tests_web","test_web_checkout","","","","Alert message should be shown correctly.","
+    [condition] Should be login success
+    Scenario: Checkout with empty cart
+    When click checkout button without add product to shopping cart
+    Then alert message ""尚未選購商品"" should be shown
+    "
+"passed","Thu Mar 02 09:34:34 CST 2023","Thu Mar 02 09:34:41 CST 2023","6502","tests_web","test_web_create_product","","","","Create Product Success.","
+    Scenario: Create Product Success (3 Test Cases)
+    Given login success
+    When create product with valid values (According to Stylish-Test Case.xlsx -
+        ""Create Product Success"" sheet)
+    Then alert message ""Create Product Success"" should be shown
+    And new product should be displayed on product list
+    "
+"passed","Thu Mar 02 09:20:47 CST 2023","Thu Mar 02 09:21:05 CST 2023","17686","test_api","test_product","","","","Search product success with ""襯"" keywork",""
+"passed","Thu Mar 02 09:16:52 CST 2023","Thu Mar 02 09:16:53 CST 2023","1259","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:36:00 CST 2023","Thu Mar 02 09:36:05 CST 2023","4490","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:37:11 CST 2023","Thu Mar 02 09:37:13 CST 2023","2230","tests_web","test_web_create_product","","","","Create Product without login.","
+    Scenario: Create Product without login
+    When create product with valid values
+    Then alert message ""Please Login first"" should be shown
+    And should be redirected to login page
+    "
+"passed","Thu Mar 02 09:37:07 CST 2023","Thu Mar 02 09:37:08 CST 2023","1166","tests_web","test_web_create_product","","","","Create Product without login.","
+    Scenario: Create Product without login
+    When create product with valid values
+    Then alert message ""Please Login first"" should be shown
+    And should be redirected to login page
+    "
+"passed","Thu Mar 02 09:18:44 CST 2023","Thu Mar 02 09:18:49 CST 2023","4691","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"failed","Thu Mar 02 09:21:35 CST 2023","Thu Mar 02 09:21:36 CST 2023","313","test_api","test_product","","","","Search product with paging is over than 6.",""
+"passed","Thu Mar 02 09:19:47 CST 2023","Thu Mar 02 09:19:51 CST 2023","4513","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:37:28 CST 2023","Thu Mar 02 09:37:30 CST 2023","1747","tests_web","test_web_login","","","","Login failure with invalid email & password.","
+    Scenario: Login Failed with incorrect email or password
+    When member login with incorrect email / password
+    Then login failed with error message
+    "
+"passed","Thu Mar 02 09:24:47 CST 2023","Thu Mar 02 09:24:48 CST 2023","311","test_api","test_user","","","","Logout failed and expected result should be correct.",""
+"passed","Thu Mar 02 09:19:53 CST 2023","Thu Mar 02 09:19:58 CST 2023","4474","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:19:25 CST 2023","Thu Mar 02 09:19:30 CST 2023","4449","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:16:00 CST 2023","Thu Mar 02 09:16:04 CST 2023","4723","test_api","test_api_admin","","","","Create & delete product API within valid value and get new product id",""
+"passed","Thu Mar 02 09:16:31 CST 2023","Thu Mar 02 09:16:32 CST 2023","1257","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:30:03 CST 2023","Thu Mar 02 09:30:26 CST 2023","22479","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"failed","Thu Mar 02 09:21:33 CST 2023","Thu Mar 02 09:21:33 CST 2023","312","test_api","test_product","","","","Search product with paging is less than zero.",""
+"passed","Thu Mar 02 09:16:48 CST 2023","Thu Mar 02 09:16:49 CST 2023","1307","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:19:05 CST 2023","Thu Mar 02 09:19:10 CST 2023","4414","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:16:17 CST 2023","Thu Mar 02 09:16:18 CST 2023","1289","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:34 CST 2023","Thu Mar 02 09:24:34 CST 2023","391","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:35:40 CST 2023","Thu Mar 02 09:35:44 CST 2023","4525","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:37:58 CST 2023","Thu Mar 02 09:38:06 CST 2023","7641","tests_web","test_web_product_page","","","","Size Selection","
+    Scenario: Size Selection
+    Given entered a product page
+    When select a size of the product
+    Then selected size is highlighted
+    "
+"passed","Thu Mar 02 09:16:55 CST 2023","Thu Mar 02 09:16:56 CST 2023","1180","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:16:58 CST 2023","Thu Mar 02 09:17:00 CST 2023","1180","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:37:48 CST 2023","Thu Mar 02 09:37:56 CST 2023","7646","tests_web","test_web_product_page","","","","Color Selection","
+    Scenario: Color Selection
+    Given entered a product page
+    When select a color of the product
+    Then selected color is highlighted
+    "
+"passed","Thu Mar 02 09:19:39 CST 2023","Thu Mar 02 09:19:44 CST 2023","5087","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:17:26 CST 2023","Thu Mar 02 09:17:27 CST 2023","1302","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:17:05 CST 2023","Thu Mar 02 09:17:07 CST 2023","1207","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:17 CST 2023","Thu Mar 02 09:24:18 CST 2023","305","test_api","test_product","","","","Get failure with invalid category.",""
+"passed","Thu Mar 02 09:27:31 CST 2023","Thu Mar 02 09:27:54 CST 2023","22864","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:17:55 CST 2023","Thu Mar 02 09:18:00 CST 2023","4999","test_api","test_order","","","","Checkout API response within valid value and get order id",""
+"passed","Thu Mar 02 09:40:05 CST 2023","Thu Mar 02 09:40:14 CST 2023","8669","tests_web","test_web_shopping_cart","","","","Subtotal should be updated correctly","
+    Scenario: Edit quantity in cart
+    Given product added to shopping cart
+    When edit the quantity of the product
+    Then alert message ""已修改數量"" should be shown
+    And subtotal should be updated correctly.
+    "
+"passed","Thu Mar 02 09:15:51 CST 2023","Thu Mar 02 09:15:57 CST 2023","6178","test_api","test_api_admin","","","","Create & delete product API within valid value and get new product id",""
+"passed","Thu Mar 02 09:36:21 CST 2023","Thu Mar 02 09:36:26 CST 2023","4436","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:31:18 CST 2023","Thu Mar 02 09:31:41 CST 2023","22200","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:17:36 CST 2023","Thu Mar 02 09:17:36 CST 2023","318","test_api","test_api_admin","","","","Delete product API with invalid value.",""
+"passed","Thu Mar 02 09:34:51 CST 2023","Thu Mar 02 09:34:55 CST 2023","4508","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:16:45 CST 2023","Thu Mar 02 09:16:46 CST 2023","1229","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:35:12 CST 2023","Thu Mar 02 09:35:16 CST 2023","4377","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:24:41 CST 2023","Thu Mar 02 09:24:42 CST 2023","1326","test_api","test_user","","","","Logout success and expected result should be correct.",""
+"passed","Thu Mar 02 09:35:54 CST 2023","Thu Mar 02 09:35:58 CST 2023","4467","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:18:10 CST 2023","Thu Mar 02 09:18:15 CST 2023","4829","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:18:17 CST 2023","Thu Mar 02 09:18:22 CST 2023","4987","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:18:02 CST 2023","Thu Mar 02 09:18:08 CST 2023","5187","test_api","test_order","","","","Checkout API response within valid value and get order id",""
+"passed","Thu Mar 02 09:18:58 CST 2023","Thu Mar 02 09:19:03 CST 2023","4595","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:16:41 CST 2023","Thu Mar 02 09:16:43 CST 2023","1208","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:28 CST 2023","Thu Mar 02 09:24:29 CST 2023","310","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:17:33 CST 2023","Thu Mar 02 09:17:34 CST 2023","1213","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:25:14 CST 2023","Thu Mar 02 09:25:20 CST 2023","5979","tests_web","test_web_category","","","","Ensure Category result is fitting: ['women', 'men', 'accessories']","
+    Scenario: Category Selection (3 Test Cases)
+    When select a category (Women / Men / Accessories)
+    Then correct products in category should be displayed.
+
+    1. connect to DB get category and store in list
+    2. Create .env to store DB connection info
+    3. use browser to query and get all items
+    4. Ensure all result is fitting.
+    "
+"passed","Thu Mar 02 09:36:49 CST 2023","Thu Mar 02 09:36:54 CST 2023","4284","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:16:35 CST 2023","Thu Mar 02 09:16:36 CST 2023","1219","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:36:42 CST 2023","Thu Mar 02 09:36:47 CST 2023","5110","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:21:30 CST 2023","Thu Mar 02 09:21:30 CST 2023","311","test_api","test_product","","","","Search product without keyword.",""
+"passed","Thu Mar 02 09:17:47 CST 2023","Thu Mar 02 09:17:53 CST 2023","5509","test_api","test_order","","","","Checkout API response within valid value and get order id",""
+"passed","Thu Mar 02 09:37:32 CST 2023","Thu Mar 02 09:37:34 CST 2023","1955","tests_web","test_web_login","","","","Login failure with invalid email & password.","
+    Scenario: Login Failed with incorrect email or password
+    When member login with incorrect email / password
+    Then login failed with error message
+    "
+"passed","Thu Mar 02 09:18:51 CST 2023","Thu Mar 02 09:18:56 CST 2023","4594","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:32:33 CST 2023","Thu Mar 02 09:32:55 CST 2023","22156","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:24:50 CST 2023","Thu Mar 02 09:24:50 CST 2023","316","test_api","test_user","","","","Logout failed and expected result should be correct.",""
+"passed","Thu Mar 02 09:27:06 CST 2023","Thu Mar 02 09:27:29 CST 2023","22828","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:24:20 CST 2023","Thu Mar 02 09:24:21 CST 2023","1182","test_api","test_user","","","","Login success and expected result should be correct.",""
+"passed","Thu Mar 02 09:24:12 CST 2023","Thu Mar 02 09:24:13 CST 2023","306","test_api","test_product","","","","404 not find if empty category request.",""
+"passed","Thu Mar 02 09:38:49 CST 2023","Thu Mar 02 09:38:56 CST 2023","7113","tests_web","test_web_product_page","","","","Add To Cart - Failed.","
+    Scenario: Add To Cart - Failed
+    Given entered a product page without size selection
+    When click add to cart button
+    Then alert message should be shown
+    "
+"passed","Thu Mar 02 09:29:13 CST 2023","Thu Mar 02 09:29:35 CST 2023","22344","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:17:39 CST 2023","Thu Mar 02 09:17:39 CST 2023","612","test_api","test_api_admin","","","","Delete product API with invalid value.",""
+"passed","Thu Mar 02 09:32:58 CST 2023","Thu Mar 02 09:33:22 CST 2023","23816","tests_web","test_web_checkout","","","","Alert message 付款成功 should be shown with valid value.","
+    Scenario: Checkout with valid values (3 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with valid value (According to Stylish-Test Case.xlsx - ""Checkout with Valid Value"" sheet)
+    Then alert message ""付款成功"" should be shown
+    And correct order info should be displayed in thankyou page
+    "
+"passed","Thu Mar 02 09:22:46 CST 2023","Thu Mar 02 09:23:02 CST 2023","16576","test_api","test_product","","","","Get accessories category & paging success.",""
+"passed","Thu Mar 02 09:22:06 CST 2023","Thu Mar 02 09:22:43 CST 2023","37548","test_api","test_product","","","","Get women category & paging success.",""
+"passed","Thu Mar 02 09:18:31 CST 2023","Thu Mar 02 09:18:36 CST 2023","4698","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:38:19 CST 2023","Thu Mar 02 09:38:26 CST 2023","7669","tests_web","test_web_product_page","","","","Quantity Editor - Increase Quantity.","
+    Scenario: Quantity Editor - Increase Quantity
+    Given entered a product page
+    And  select a size of the product
+    When add 8 more quantity
+    Then quantity should be 9
+    When add 2 more quantity
+    Then quantity still be 9
+    "
+"passed","Thu Mar 02 09:38:08 CST 2023","Thu Mar 02 09:38:16 CST 2023","7707","tests_web","test_web_product_page","","","","Quantity Editor Disabled","
+    Scenario: Quantity Editor Disabled
+    Given entered a product page
+    When edit quantity without size selection
+    Then quantity editor is disabled
+    "
+"passed","Thu Mar 02 09:37:41 CST 2023","Thu Mar 02 09:37:46 CST 2023","5276","tests_web","test_web_login","","","","Login with invalid access token.","
+    Scenario: Login with invalid access token
+    Given member login with correct email and password
+    And login success and copy the jwt token
+    And member logout
+    And logout success
+    When using the jwt token to access member page
+    Then error message ""Invalid Token""
+    "
+"passed","Thu Mar 02 09:38:39 CST 2023","Thu Mar 02 09:38:46 CST 2023","7054","tests_web","test_web_product_page","","","","Add To Cart - Success.","
+    Scenario: Add To Cart - Success
+    Given entered a product page
+    And select a size of the product
+    When click add to cart button
+    Then success message should be shown
+    And cart icon number should be 1
+    "
+"passed","Thu Mar 02 09:21:45 CST 2023","Thu Mar 02 09:21:46 CST 2023","313","test_api","test_product","","","","Search product id by characters.",""
+"passed","Thu Mar 02 09:26:15 CST 2023","Thu Mar 02 09:26:38 CST 2023","23049","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:30:28 CST 2023","Thu Mar 02 09:30:51 CST 2023","22426","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:21:07 CST 2023","Thu Mar 02 09:21:08 CST 2023","1103","test_api","test_product","","","","Search product success with ""hello"" keywork",""
+"passed","Thu Mar 02 09:35:18 CST 2023","Thu Mar 02 09:35:23 CST 2023","4515","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:29:37 CST 2023","Thu Mar 02 09:30:01 CST 2023","23533","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:20:27 CST 2023","Thu Mar 02 09:20:28 CST 2023","556","test_api","test_order","","","","Get Order API response within invalid value and get correct response and error message.",""
+"passed","Thu Mar 02 09:16:07 CST 2023","Thu Mar 02 09:16:11 CST 2023","4751","test_api","test_api_admin","","","","Create & delete product API within valid value and get new product id",""
+"passed","Thu Mar 02 09:27:57 CST 2023","Thu Mar 02 09:28:20 CST 2023","22963","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:23:05 CST 2023","Thu Mar 02 09:24:10 CST 2023","65405","test_api","test_product","","","","Get all category success without paging.",""
+"passed","Thu Mar 02 09:33:24 CST 2023","Thu Mar 02 09:33:48 CST 2023","23435","tests_web","test_web_checkout","","","","Alert message 付款成功 should be shown with valid value.","
+    Scenario: Checkout with valid values (3 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with valid value (According to Stylish-Test Case.xlsx - ""Checkout with Valid Value"" sheet)
+    Then alert message ""付款成功"" should be shown
+    And correct order info should be displayed in thankyou page
+    "
+"passed","Thu Mar 02 09:16:14 CST 2023","Thu Mar 02 09:16:15 CST 2023","1183","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:20:30 CST 2023","Thu Mar 02 09:20:30 CST 2023","303","test_api","test_order","","","","Get Order API response within invalid value and get correct response and error message.",""
+"passed","Thu Mar 02 09:21:38 CST 2023","Thu Mar 02 09:21:43 CST 2023","5010","test_api","test_product","","","","Search product id by invalid product_id.",""
+"passed","Thu Mar 02 09:39:09 CST 2023","Thu Mar 02 09:39:21 CST 2023","12297","tests_web","test_web_search","","","","Test Search Product: ['洋裝', '', 'Hello']","
+    Scenario: Search Product By Keyword
+    When search with keyword ""洋裝""
+    Then all searched product title should be included ""洋裝""
+
+    Scenario: Search Product Without Keyword
+    When search with empty keyword
+    Then all products should be displayed
+
+    Scenario: Search Product - No Product Found
+    When search with keyword ""Hello""
+    Then no product should be displayed
+    "
+"passed","Thu Mar 02 09:18:24 CST 2023","Thu Mar 02 09:18:29 CST 2023","4461","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:24:39 CST 2023","Thu Mar 02 09:24:39 CST 2023","340","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:37:37 CST 2023","Thu Mar 02 09:37:38 CST 2023","1760","tests_web","test_web_login","","","","Login failure with invalid email & password.","
+    Scenario: Login Failed with incorrect email or password
+    When member login with incorrect email / password
+    Then login failed with error message
+    "
+"passed","Thu Mar 02 09:24:23 CST 2023","Thu Mar 02 09:24:24 CST 2023","303","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:20:17 CST 2023","Thu Mar 02 09:20:19 CST 2023","1430","test_api","test_order","","","","Get Order API response within valid value and compare with DB result.",""
+"passed","Thu Mar 02 09:31:43 CST 2023","Thu Mar 02 09:32:06 CST 2023","22418","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:36:56 CST 2023","Thu Mar 02 09:37:00 CST 2023","4375","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:21:10 CST 2023","Thu Mar 02 09:21:28 CST 2023","17590","test_api","test_product","","","","Search product success without paging.",""
+"passed","Thu Mar 02 09:20:00 CST 2023","Thu Mar 02 09:20:04 CST 2023","4500","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:17:19 CST 2023","Thu Mar 02 09:17:20 CST 2023","935","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:59 CST 2023","Thu Mar 02 09:24:59 CST 2023","339","test_api","test_user","","","","Get profile failed and expected result should be correct.",""
+"passed","Thu Mar 02 09:28:47 CST 2023","Thu Mar 02 09:29:10 CST 2023","22997","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:39:38 CST 2023","Thu Mar 02 09:39:45 CST 2023","7625","tests_web","test_web_shopping_cart","","","","Shopping Cart Info Correct","
+    Scenario: Shopping Cart Info Correct
+    When add product to shopping cart
+    Then cart info is displayed correctly
+    "
+"passed","Thu Mar 02 09:17:02 CST 2023","Thu Mar 02 09:17:03 CST 2023","1354","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:52 CST 2023","Thu Mar 02 09:24:54 CST 2023","1382","test_api","test_user","","","","Get profile success and expected result should be correct.",""
+"passed","Thu Mar 02 09:21:48 CST 2023","Thu Mar 02 09:21:48 CST 2023","305","test_api","test_product","","","","Search product id by invalid product_id.",""
+"passed","Thu Mar 02 09:36:07 CST 2023","Thu Mar 02 09:36:12 CST 2023","4601","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:24:45 CST 2023","Thu Mar 02 09:24:45 CST 2023","313","test_api","test_user","","","","Logout failed and expected result should be correct.",""
+"passed","Thu Mar 02 09:20:24 CST 2023","Thu Mar 02 09:20:25 CST 2023","580","test_api","test_order","","","","Get Order API response within invalid value and get correct response and error message.",""
+"passed","Thu Mar 02 09:33:51 CST 2023","Thu Mar 02 09:34:15 CST 2023","23945","tests_web","test_web_checkout","","","","Alert message 付款成功 should be shown with valid value.","
+    Scenario: Checkout with valid values (3 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with valid value (According to Stylish-Test Case.xlsx - ""Checkout with Valid Value"" sheet)
+    Then alert message ""付款成功"" should be shown
+    And correct order info should be displayed in thankyou page
+    "
+"passed","Thu Mar 02 09:17:16 CST 2023","Thu Mar 02 09:17:17 CST 2023","1291","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:56 CST 2023","Thu Mar 02 09:24:56 CST 2023","304","test_api","test_user","","","","Get profile failed and expected result should be correct.",""
+"passed","Thu Mar 02 09:24:36 CST 2023","Thu Mar 02 09:24:36 CST 2023","313","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:16:24 CST 2023","Thu Mar 02 09:16:25 CST 2023","1189","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:39:24 CST 2023","Thu Mar 02 09:39:35 CST 2023","11235","tests_web","test_web_search","","","","Test Search Product: ['洋裝', '', 'Hello']","
+    Scenario: Search Product By Keyword
+    When search with keyword ""洋裝""
+    Then all searched product title should be included ""洋裝""
+
+    Scenario: Search Product Without Keyword
+    When search with empty keyword
+    Then all products should be displayed
+
+    Scenario: Search Product - No Product Found
+    When search with keyword ""Hello""
+    Then no product should be displayed
+    "
+"passed","Thu Mar 02 09:39:48 CST 2023","Thu Mar 02 09:40:03 CST 2023","15001","tests_web","test_web_shopping_cart","","","","Cart icon number should be updated correctly","
+    Given add 2 products to shopping cart
+    When delete product from shopping cart
+    Then alert message ""已刪除商品"" should be shown
+    And new cart info should be updated correctly
+    And cart icon number should be updated correctly
+    "
+"passed","Thu Mar 02 09:21:50 CST 2023","Thu Mar 02 09:22:03 CST 2023","13155","test_api","test_product","","","","Get men category & paging success.",""
+"passed","Thu Mar 02 09:36:35 CST 2023","Thu Mar 02 09:36:39 CST 2023","4533","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:25:51 CST 2023","Thu Mar 02 09:26:13 CST 2023","22335","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:36:28 CST 2023","Thu Mar 02 09:36:33 CST 2023","4326","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:38:29 CST 2023","Thu Mar 02 09:38:37 CST 2023","7984","tests_web","test_web_product_page","","","","Quantity Editor - Decrease Quantity.","
+    Scenario: Quantity Editor - Decrease Quantity
+    Given entered a product page
+    And select a size of the product
+    And add 8 more quantity
+    When decrease 8 quantity
+    Then quantity should be 1
+    "
+"passed","Thu Mar 02 09:28:22 CST 2023","Thu Mar 02 09:28:45 CST 2023","23034","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:36:14 CST 2023","Thu Mar 02 09:36:19 CST 2023","4741","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:19:12 CST 2023","Thu Mar 02 09:19:16 CST 2023","4512","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:17:42 CST 2023","Thu Mar 02 09:17:42 CST 2023","551","test_api","test_api_admin","","","","Delete product API with invalid value.",""
+"passed","Thu Mar 02 09:16:38 CST 2023","Thu Mar 02 09:16:39 CST 2023","1230","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:34:26 CST 2023","Thu Mar 02 09:34:32 CST 2023","5855","tests_web","test_web_create_product","","","","Create Product Success.","
+    Scenario: Create Product Success (3 Test Cases)
+    Given login success
+    When create product with valid values (According to Stylish-Test Case.xlsx -
+        ""Create Product Success"" sheet)
+    Then alert message ""Create Product Success"" should be shown
+    And new product should be displayed on product list
+    "
+"passed","Thu Mar 02 09:25:04 CST 2023","Thu Mar 02 09:25:12 CST 2023","7918","tests_web","test_web_category","","","","Ensure Category result is fitting: ['women', 'men', 'accessories']","
+    Scenario: Category Selection (3 Test Cases)
+    When select a category (Women / Men / Accessories)
+    Then correct products in category should be displayed.
+
+    1. connect to DB get category and store in list
+    2. Create .env to store DB connection info
+    3. use browser to query and get all items
+    4. Ensure all result is fitting.
+    "
+"passed","Thu Mar 02 09:35:32 CST 2023","Thu Mar 02 09:35:37 CST 2023","5163","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:37:24 CST 2023","Thu Mar 02 09:37:26 CST 2023","1966","tests_web","test_web_login","","","","Login failure with invalid email & password.","
+    Scenario: Login Failed with incorrect email or password
+    When member login with incorrect email / password
+    Then login failed with error message
+    "
+"failed","Thu Mar 02 09:17:44 CST 2023","Thu Mar 02 09:17:45 CST 2023","592","test_api","test_api_admin","","","","Delete product API with invalid value.",""
+"passed","Thu Mar 02 09:17:22 CST 2023","Thu Mar 02 09:17:24 CST 2023","1206","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:24:26 CST 2023","Thu Mar 02 09:24:26 CST 2023","340","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:34:17 CST 2023","Thu Mar 02 09:34:23 CST 2023","5906","tests_web","test_web_create_product","","","","Create Product Success.","
+    Scenario: Create Product Success (3 Test Cases)
+    Given login success
+    When create product with valid values (According to Stylish-Test Case.xlsx -
+        ""Create Product Success"" sheet)
+    Then alert message ""Create Product Success"" should be shown
+    And new product should be displayed on product list
+    "
+"passed","Thu Mar 02 09:20:07 CST 2023","Thu Mar 02 09:20:11 CST 2023","4546","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"failed","Thu Mar 02 09:24:15 CST 2023","Thu Mar 02 09:24:15 CST 2023","344","test_api","test_product","","","","Get accessories category fail with invalid paging.",""
+"passed","Thu Mar 02 09:32:08 CST 2023","Thu Mar 02 09:32:30 CST 2023","22246","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:26:41 CST 2023","Thu Mar 02 09:27:04 CST 2023","22950","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:34:57 CST 2023","Thu Mar 02 09:35:02 CST 2023","4757","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:35:46 CST 2023","Thu Mar 02 09:35:51 CST 2023","4867","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:17:12 CST 2023","Thu Mar 02 09:17:14 CST 2023","1349","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:37:03 CST 2023","Thu Mar 02 09:37:04 CST 2023","1339","tests_web","test_web_create_product","","","","Create Product without login.","
+    Scenario: Create Product without login
+    When create product with valid values
+    Then alert message ""Please Login first"" should be shown
+    And should be redirected to login page
+    "
+"passed","Thu Mar 02 09:16:28 CST 2023","Thu Mar 02 09:16:29 CST 2023","1393","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:19:18 CST 2023","Thu Mar 02 09:19:23 CST 2023","4779","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:20:14 CST 2023","Thu Mar 02 09:20:15 CST 2023","1407","test_api","test_order","","","","Get Order API response within valid value and compare with DB result.",""
+"passed","Thu Mar 02 09:30:53 CST 2023","Thu Mar 02 09:31:16 CST 2023","22657","tests_web","test_web_checkout","","","","Related alert message should be shown with invalid value.","
+    Scenario: Checkout with invalid values (17 Test Cases)
+    Given login success
+    And add product to shopping cart
+    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:37:16 CST 2023","Thu Mar 02 09:37:21 CST 2023","5090","tests_web","test_web_login","","","","Login and Logout Success.","
+    Scenario: Login and Logout Success
+    When member login with correct email and password
+    Then login success and there is jwt token in local storage
+    When member logout
+    Then logout success
+    "
+"passed","Thu Mar 02 09:25:23 CST 2023","Thu Mar 02 09:25:29 CST 2023","5837","tests_web","test_web_category","","","","Ensure Category result is fitting: ['women', 'men', 'accessories']","
+    Scenario: Category Selection (3 Test Cases)
+    When select a category (Women / Men / Accessories)
+    Then correct products in category should be displayed.
+
+    1. connect to DB get category and store in list
+    2. Create .env to store DB connection info
+    3. use browser to query and get all items
+    4. Ensure all result is fitting.
+    "
+"passed","Thu Mar 02 09:17:29 CST 2023","Thu Mar 02 09:17:30 CST 2023","1224","test_api","test_api_admin","","","","Create product API within invalid value.",""
+"passed","Thu Mar 02 09:19:32 CST 2023","Thu Mar 02 09:19:37 CST 2023","4659","test_api","test_order","","","","Checkout API response within invalid value and get correct response and error message",""
+"passed","Thu Mar 02 09:35:25 CST 2023","Thu Mar 02 09:35:30 CST 2023","4398","tests_web","test_web_create_product","","","","Create Product Failed.","
+    Scenario: Create Product with Invalid Value (20 Test Cases)
+    Given login success
+    When create product with invalid values (According to Stylish-Test Case.xlsx - ""Create Product Failed"" sheet)
+    Then related alert message should be shown
+    "
+"passed","Thu Mar 02 09:20:21 CST 2023","Thu Mar 02 09:20:22 CST 2023","1352","test_api","test_order","","","","Get Order API response within valid value and compare with DB result.",""
+"passed","Thu Mar 02 09:25:01 CST 2023","Thu Mar 02 09:25:01 CST 2023","312","test_api","test_user","","","","Get profile failed and expected result should be correct.",""
+"passed","Thu Mar 02 09:24:31 CST 2023","Thu Mar 02 09:24:31 CST 2023","450","test_api","test_user","","","","Alert message and expected result should be correct.",""
+"passed","Thu Mar 02 09:38:58 CST 2023","Thu Mar 02 09:39:07 CST 2023","8519","tests_web","test_web_search","","","","Test Search Product: ['洋裝', '', 'Hello']","
+    Scenario: Search Product By Keyword
+    When search with keyword ""洋裝""
+    Then all searched product title should be included ""洋裝""
+
+    Scenario: Search Product Without Keyword
+    When search with empty keyword
+    Then all products should be displayed
+
+    Scenario: Search Product - No Product Found
+    When search with keyword ""Hello""
+    Then no product should be displayed
+    "

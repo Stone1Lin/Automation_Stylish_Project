@@ -1,0 +1,378 @@
+{
+  "uid" : "bb3281cfcaab1ad4",
+  "name" : "Related alert message should be shown with invalid value.",
+  "fullName" : "tests_web.test_web_checkout#test_checkout_invalid_value",
+  "historyId" : "504d1c08e2072756d4f13c1a54e178bc",
+  "time" : {
+    "start" : 1677720603882,
+    "stop" : 1677720626361,
+    "duration" : 22479
+  },
+  "description" : "\n    Scenario: Checkout with invalid values (17 Test Cases)\n    Given login success\n    And add product to shopping cart\n    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value\" sheet)\n    Then related alert message should be shown\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Checkout with invalid values (17 Test Cases)\nGiven login success\nAnd add product to shopping cart\nWhen checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value&quot; sheet)\nThen related alert message should be shown\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677720601783,
+      "stop" : 1677720603881,
+      "duration" : 2098
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Checkout with invalid values (17 Test Cases)\n    Given login success\n    And add product to shopping cart\n    When checkout with invalid value (According to Stylish-Test Case.xlsx -     Checkout with Invalid Value\" sheet)\n    Then related alert message should be shown\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login account.",
+      "time" : {
+        "start" : 1677720604557,
+        "stop" : 1677720616061,
+        "duration" : 11504
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Random select a product and go to checkout page.",
+      "time" : {
+        "start" : 1677720616061,
+        "stop" : 1677720623379,
+        "duration" : 7318
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Execute all product SQL query",
+        "time" : {
+          "start" : 1677720616061,
+          "stop" : 1677720616861,
+          "duration" : 800
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Search product by product name.",
+        "time" : {
+          "start" : 1677720616861,
+          "stop" : 1677720621843,
+          "duration" : 4982
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "prod_name",
+          "value" : "'卡哇伊多功能隨身包'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click select product",
+        "time" : {
+          "start" : 1677720621843,
+          "stop" : 1677720622252,
+          "duration" : 409
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "prod_name",
+          "value" : "'卡哇伊多功能隨身包'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Scroll to product title on product page",
+        "time" : {
+          "start" : 1677720622252,
+          "stop" : 1677720622772,
+          "duration" : 520
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get color elements",
+        "time" : {
+          "start" : 1677720622772,
+          "stop" : 1677720622808,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get size elements",
+        "time" : {
+          "start" : 1677720622808,
+          "stop" : 1677720622843,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get add cart btn element",
+        "time" : {
+          "start" : 1677720622843,
+          "stop" : 1677720622850,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get shopping cart btn element",
+        "time" : {
+          "start" : 1677720622872,
+          "stop" : 1677720622880,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Fillup the checkout info.",
+      "time" : {
+        "start" : 1677720623379,
+        "stop" : 1677720626357,
+        "duration" : 2978
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Scroll to deliver time on shop cart page.",
+        "time" : {
+          "start" : 1677720623379,
+          "stop" : 1677720623902,
+          "duration" : 523
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify alert message is correctly.",
+      "time" : {
+        "start" : 1677720626358,
+        "stop" : 1677720626361,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9ca6d26ffc95c74e",
+      "name" : "screenshot",
+      "source" : "9ca6d26ffc95c74e.png",
+      "type" : "image/png",
+      "size" : 101020
+    }, {
+      "uid" : "712db1554f5c0ea1",
+      "name" : "log",
+      "source" : "712db1554f5c0ea1.txt",
+      "type" : "text/plain",
+      "size" : 377
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677720626523,
+      "stop" : 1677720626644,
+      "duration" : 121
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Checkout with invalid value."
+  }, {
+    "name" : "feature",
+    "value" : "Checkout"
+  }, {
+    "name" : "tag",
+    "value" : "checkout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_checkout"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "checkout" ]
+  },
+  "source" : "bb3281cfcaab1ad4.json",
+  "parameterValues" : [ ]
+}

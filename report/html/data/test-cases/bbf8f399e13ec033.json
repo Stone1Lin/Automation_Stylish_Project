@@ -1,0 +1,222 @@
+{
+  "uid" : "bbf8f399e13ec033",
+  "name" : "Create Product without login.",
+  "fullName" : "tests_web.test_web_create_product#test_create_product_without_login",
+  "historyId" : "032b30797fdb059e2026856c2705143f",
+  "time" : {
+    "start" : 1677721023222,
+    "stop" : 1677721024561,
+    "duration" : 1339
+  },
+  "description" : "\n    Scenario: Create Product without login\n    When create product with valid values\n    Then alert message \"Please Login first\" should be shown\n    And should be redirected to login page\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Create Product without login\nWhen create product with valid values\nThen alert message &quot;Please Login first&quot; should be shown\nAnd should be redirected to login page\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677721021057,
+      "stop" : 1677721023220,
+      "duration" : 2163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Create Product without login\n    When create product with valid values\n    Then alert message \"Please Login first\" should be shown\n    And should be redirected to login page\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to create new product",
+      "time" : {
+        "start" : 1677721023222,
+        "stop" : 1677721023928,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Input new product info",
+      "time" : {
+        "start" : 1677721023928,
+        "stop" : 1677721024561,
+        "duration" : 633
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "alert message should be shown and correctly.",
+      "time" : {
+        "start" : 1677721024561,
+        "stop" : 1677721024561,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "454aa037bbcd624f",
+      "name" : "screenshot",
+      "source" : "454aa037bbcd624f.png",
+      "type" : "image/png",
+      "size" : 10554
+    }, {
+      "uid" : "af08f0b33c6ae51d",
+      "name" : "log",
+      "source" : "af08f0b33c6ae51d.txt",
+      "type" : "text/plain",
+      "size" : 293
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677721025181,
+      "stop" : 1677721025250,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create product with valid values."
+  }, {
+    "name" : "feature",
+    "value" : "Create Product"
+  }, {
+    "name" : "tag",
+    "value" : "admin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_create_product"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_create_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "admin" ]
+  },
+  "source" : "bbf8f399e13ec033.json",
+  "parameterValues" : [ ]
+}

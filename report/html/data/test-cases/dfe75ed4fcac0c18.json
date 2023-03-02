@@ -1,0 +1,237 @@
+{
+  "uid" : "dfe75ed4fcac0c18",
+  "name" : "Create Product Failed.",
+  "fullName" : "tests_web.test_web_create_product#test_create_product_failed",
+  "historyId" : "ae5156a3d7a80901dfd536e94a04568b",
+  "time" : {
+    "start" : 1677720967873,
+    "stop" : 1677720972474,
+    "duration" : 4601
+  },
+  "description" : "\n    Scenario: Create Product with Invalid Value (20 Test Cases)\n    Given login success\n    When create product with invalid values (According to Stylish-Test Case.xlsx - \"Create Product Failed\" sheet)\n    Then related alert message should be shown\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Create Product with Invalid Value (20 Test Cases)\nGiven login success\nWhen create product with invalid values (According to Stylish-Test Case.xlsx - &quot;Create Product Failed&quot; sheet)\nThen related alert message should be shown\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677720965672,
+      "stop" : 1677720967870,
+      "duration" : 2198
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Create Product with Invalid Value (20 Test Cases)\n    Given login success\n    When create product with invalid values (According to Stylish-Test Case.xlsx - \"Create Product Failed\" sheet)\n    Then related alert message should be shown\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login account.",
+      "time" : {
+        "start" : 1677720968547,
+        "stop" : 1677720969855,
+        "duration" : 1308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Go to create new product",
+      "time" : {
+        "start" : 1677720969856,
+        "stop" : 1677720970799,
+        "duration" : 943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Input new product info",
+      "time" : {
+        "start" : 1677720970799,
+        "stop" : 1677720972474,
+        "duration" : 1675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "alert message should be shown and correctly.",
+      "time" : {
+        "start" : 1677720972474,
+        "stop" : 1677720972474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "96b5c9530a5f3c00",
+      "name" : "screenshot",
+      "source" : "96b5c9530a5f3c00.png",
+      "type" : "image/png",
+      "size" : 97084
+    }, {
+      "uid" : "8eed0c0c4b54c2a1",
+      "name" : "log",
+      "source" : "8eed0c0c4b54c2a1.txt",
+      "type" : "text/plain",
+      "size" : 293
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677720972610,
+      "stop" : 1677720972682,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create Product with Invalid Value(20 Test Cases)."
+  }, {
+    "name" : "feature",
+    "value" : "Create Product"
+  }, {
+    "name" : "tag",
+    "value" : "admin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_create_product"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_create_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "admin" ]
+  },
+  "source" : "dfe75ed4fcac0c18.json",
+  "parameterValues" : [ ]
+}

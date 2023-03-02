@@ -1,0 +1,333 @@
+{
+  "uid" : "4b36411094ea992d",
+  "name" : "Size Selection",
+  "fullName" : "tests_web.test_web_product_page#test_size_select",
+  "historyId" : "16a15a7b1760f56750e9a23273770921",
+  "time" : {
+    "start" : 1677721078845,
+    "stop" : 1677721086486,
+    "duration" : 7641
+  },
+  "description" : "\n    Scenario: Size Selection\n    Given entered a product page\n    When select a size of the product\n    Then selected size is highlighted\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Size Selection\nGiven entered a product page\nWhen select a size of the product\nThen selected size is highlighted\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677721076714,
+      "stop" : 1677721078843,
+      "duration" : 2129
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Size Selection\n    Given entered a product page\n    When select a size of the product\n    Then selected size is highlighted\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Random select a product.",
+      "time" : {
+        "start" : 1677721078845,
+        "stop" : 1677721086408,
+        "duration" : 7563
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Execute all product SQL query",
+        "time" : {
+          "start" : 1677721078845,
+          "stop" : 1677721079621,
+          "duration" : 776
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Search product by product name.",
+        "time" : {
+          "start" : 1677721079621,
+          "stop" : 1677721084953,
+          "duration" : 5332
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "prod_name",
+          "value" : "'經典牛仔帽'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click select product",
+        "time" : {
+          "start" : 1677721084953,
+          "stop" : 1677721085371,
+          "duration" : 418
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "prod_name",
+          "value" : "'經典牛仔帽'"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Scroll to product title on product page",
+        "time" : {
+          "start" : 1677721085371,
+          "stop" : 1677721086408,
+          "duration" : 1037
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Random select a size.",
+      "time" : {
+        "start" : 1677721086408,
+        "stop" : 1677721086453,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get size elements",
+        "time" : {
+          "start" : 1677721086408,
+          "stop" : 1677721086442,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Check the selected size is highlight.",
+      "time" : {
+        "start" : 1677721086453,
+        "stop" : 1677721086477,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get select size",
+        "time" : {
+          "start" : 1677721086453,
+          "stop" : 1677721086472,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify random size is equal to highlight size.",
+      "time" : {
+        "start" : 1677721086477,
+        "stop" : 1677721086486,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d9b6c95122cf69c2",
+      "name" : "screenshot",
+      "source" : "d9b6c95122cf69c2.png",
+      "type" : "image/png",
+      "size" : 78111
+    }, {
+      "uid" : "b35d21ae40b14633",
+      "name" : "log",
+      "source" : "b35d21ae40b14633.txt",
+      "type" : "text/plain",
+      "size" : 439
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677721086641,
+      "stop" : 1677721086731,
+      "duration" : 90
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Product Page Testing"
+  }, {
+    "name" : "story",
+    "value" : "select a size of the product"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_product_page"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product" ]
+  },
+  "source" : "4b36411094ea992d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,5 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 About to download new driver from https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_mac64.zip
+[32mINFO    [0m WDM:logger.py:11 Driver has been saved in cache [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481]
+[32mINFO    [0m root:test_api_admin.py:24 {'Category': 'women', 'Title': '連身裙 - Stone', 'Description': '詳細內容', 'Price': '100', 'Texture': '棉質', 'Wash': '手洗', 'Place of Product': 'Taiwan', 'Note': 'Notes', 'ColorIDs': '1', 'Sizes': 'F', 'Story': 'Story Content', 'Main Image': 'sample image', 'Other Image 1': 'sample image', 'Other Image 2': 'sample image', 'Unnamed: 14': 'Success'}

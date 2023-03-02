@@ -1,0 +1,267 @@
+{
+  "uid" : "e46ba0b916ef2874",
+  "name" : "Delete product API with invalid value.",
+  "fullName" : "test_api.test_api_admin#test_delete_product_failure",
+  "historyId" : "150eae7553b0701cce99b63398861da1",
+  "time" : {
+    "start" : 1677719864821,
+    "stop" : 1677719865413,
+    "duration" : 592
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = int('400')",
+  "statusTrace" : "session = <requests.sessions.Session object at 0x11dc4e400>, test_data = {'Error msg': 'Product ID not found.', 'Http_status_code': '400', 'Token': 'valid', 'Unnamed: 4': 'Internal Server Error', ...}\n\n    @allure.feature(\"Admin API\")\n    @allure.story(\"Delete product failure.\")\n    @allure.title(f\"Delete product API with invalid value.\")\n    @pytest.mark.parametrize(\"test_data\", data_process.excel_read(\"API Delete Product Failed\"))\n    # @pytest.mark.AdminAPI\n    def test_delete_product_failure(session, test_data):\n        logging.info(test_data)\n    \n        if test_data['Token'] == \"valid\":\n            with allure.step(\"Login account.\"):\n                LoginAPI(session).get_login_info()\n    \n        with allure.step(\"Delete product with invalid value.\"):\n            resp = DeleteProductAPI(session).send(test_data['product_id'])\n    \n        with allure.step(\"Verify error message is expected.\"):\n            if resp.status_code == 404:\n                with allure.step(f\"Verify error message is expected if status_code: {resp.status_code}.\"):\n                    assert resp.text.strip() == test_data['Error msg']\n            else:\n                with allure.step(f\"Verify error message is expected: {test_data['Error msg']}\"):\n>                   assert resp.status_code == int(test_data['Http_status_code'])\nE                   AssertionError: assert 500 == 400\nE                    +  where 500 = <Response [500]>.status_code\nE                    +  and   400 = int('400')\n\ntest_api/test_api_admin.py:103: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session",
+    "time" : {
+      "start" : 1677719864819,
+      "stop" : 1677719864819,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677719862710,
+      "stop" : 1677719864818,
+      "duration" : 2108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = int('400')",
+    "statusTrace" : "session = <requests.sessions.Session object at 0x11dc4e400>, test_data = {'Error msg': 'Product ID not found.', 'Http_status_code': '400', 'Token': 'valid', 'Unnamed: 4': 'Internal Server Error', ...}\n\n    @allure.feature(\"Admin API\")\n    @allure.story(\"Delete product failure.\")\n    @allure.title(f\"Delete product API with invalid value.\")\n    @pytest.mark.parametrize(\"test_data\", data_process.excel_read(\"API Delete Product Failed\"))\n    # @pytest.mark.AdminAPI\n    def test_delete_product_failure(session, test_data):\n        logging.info(test_data)\n    \n        if test_data['Token'] == \"valid\":\n            with allure.step(\"Login account.\"):\n                LoginAPI(session).get_login_info()\n    \n        with allure.step(\"Delete product with invalid value.\"):\n            resp = DeleteProductAPI(session).send(test_data['product_id'])\n    \n        with allure.step(\"Verify error message is expected.\"):\n            if resp.status_code == 404:\n                with allure.step(f\"Verify error message is expected if status_code: {resp.status_code}.\"):\n                    assert resp.text.strip() == test_data['Error msg']\n            else:\n                with allure.step(f\"Verify error message is expected: {test_data['Error msg']}\"):\n>                   assert resp.status_code == int(test_data['Http_status_code'])\nE                   AssertionError: assert 500 == 400\nE                    +  where 500 = <Response [500]>.status_code\nE                    +  and   400 = int('400')\n\ntest_api/test_api_admin.py:103: AssertionError",
+    "steps" : [ {
+      "name" : "Login account.",
+      "time" : {
+        "start" : 1677719864821,
+        "stop" : 1677719865231,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Delete product with invalid value.",
+      "time" : {
+        "start" : 1677719865231,
+        "stop" : 1677719865395,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify error message is expected.",
+      "time" : {
+        "start" : 1677719865395,
+        "stop" : 1677719865413,
+        "duration" : 18
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = int('400')\n",
+      "statusTrace" : "  File \"/Users/linstone/Desktop/AppWork/Automation-Test-Program-Batch1/Stylish_Project/test_api/test_api_admin.py\", line 103, in test_delete_product_failure\n    assert resp.status_code == int(test_data['Http_status_code'])\n",
+      "steps" : [ {
+        "name" : "Verify error message is expected: Product ID not found.",
+        "time" : {
+          "start" : 1677719865395,
+          "stop" : 1677719865396,
+          "duration" : 1
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = int('400')\n",
+        "statusTrace" : "  File \"/Users/linstone/Desktop/AppWork/Automation-Test-Program-Batch1/Stylish_Project/test_api/test_api_admin.py\", line 103, in test_delete_product_failure\n    assert resp.status_code == int(test_data['Http_status_code'])\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "975ee54fbb817df9",
+      "name" : "log",
+      "source" : "975ee54fbb817df9.txt",
+      "type" : "text/plain",
+      "size" : 484
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "session::0",
+    "time" : {
+      "start" : 1677719865551,
+      "stop" : 1677719865551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677719865551,
+      "stop" : 1677719865619,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Delete product failure."
+  }, {
+    "name" : "feature",
+    "value" : "Admin API"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_admin"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_api.test_api_admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e46ba0b916ef2874.json",
+  "parameterValues" : [ ]
+}

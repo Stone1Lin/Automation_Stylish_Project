@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = int('400')",
+      "children" : [ {
+        "name" : "Delete product API with invalid value.",
+        "uid" : "e46ba0b916ef2874",
+        "parentUid" : "117d18bd8706c43cbc9f39da8e1f4de5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677719864821,
+          "stop" : 1677719865413,
+          "duration" : 592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get accessories category fail with invalid paging.",
+        "uid" : "c32621c5580e3d76",
+        "parentUid" : "117d18bd8706c43cbc9f39da8e1f4de5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677720255336,
+          "stop" : 1677720255680,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "117d18bd8706c43cbc9f39da8e1f4de5"
+    }, {
+      "name" : "AssertionError: Expected: 400, Actual: 500\nassert 500 == 400\n +  where 500 = <Response [500]>.status_code\n +  and   400 = int('400')",
+      "children" : [ {
+        "name" : "Search product with paging is less than zero.",
+        "uid" : "42243034959aa7a4",
+        "parentUid" : "4c68ee1dac054d5c07e881df20b1fd32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677720093071,
+          "stop" : 1677720093383,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product with paging is over than 6.",
+        "uid" : "c238b20e4348ad4c",
+        "parentUid" : "4c68ee1dac054d5c07e881df20b1fd32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677720095743,
+          "stop" : 1677720096056,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c68ee1dac054d5c07e881df20b1fd32"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,267 @@
+{
+  "uid" : "d00fc6efe29fcda",
+  "name" : "Create Product Success.",
+  "fullName" : "tests_web.test_web_create_product#test_create_product_success",
+  "historyId" : "6fdf168824593f1812cd5140ea69647e",
+  "time" : {
+    "start" : 1677720857814,
+    "stop" : 1677720863720,
+    "duration" : 5906
+  },
+  "description" : "\n    Scenario: Create Product Success (3 Test Cases)\n    Given login success\n    When create product with valid values (According to Stylish-Test Case.xlsx -\n        \"Create Product Success\" sheet)\n    Then alert message \"Create Product Success\" should be shown\n    And new product should be displayed on product list\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Create Product Success (3 Test Cases)\nGiven login success\nWhen create product with valid values (According to Stylish-Test Case.xlsx -\n    &quot;Create Product Success&quot; sheet)\nThen alert message &quot;Create Product Success&quot; should be shown\nAnd new product should be displayed on product list\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677720855724,
+      "stop" : 1677720857812,
+      "duration" : 2088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Create Product Success (3 Test Cases)\n    Given login success\n    When create product with valid values (According to Stylish-Test Case.xlsx -\n        \"Create Product Success\" sheet)\n    Then alert message \"Create Product Success\" should be shown\n    And new product should be displayed on product list\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login account.",
+      "time" : {
+        "start" : 1677720858317,
+        "stop" : 1677720859603,
+        "duration" : 1286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Go to admin page",
+      "time" : {
+        "start" : 1677720859603,
+        "stop" : 1677720860682,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Input new product infoInput new product info",
+      "time" : {
+        "start" : 1677720860682,
+        "stop" : 1677720862265,
+        "duration" : 1583
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "alert message should be shown and correctly.",
+      "time" : {
+        "start" : 1677720862265,
+        "stop" : 1677720862265,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "New product should be displayed on product list.",
+      "time" : {
+        "start" : 1677720862265,
+        "stop" : 1677720863177,
+        "duration" : 912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Delete product from Admin Page.",
+      "time" : {
+        "start" : 1677720863177,
+        "stop" : 1677720863720,
+        "duration" : 543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6040cc2029454d89",
+      "name" : "screenshot",
+      "source" : "6040cc2029454d89.png",
+      "type" : "image/png",
+      "size" : 31233
+    }, {
+      "uid" : "1dd4d0391f068634",
+      "name" : "log",
+      "source" : "1dd4d0391f068634.txt",
+      "type" : "text/plain",
+      "size" : 293
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677720864219,
+      "stop" : 1677720864287,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create product with valid values."
+  }, {
+    "name" : "feature",
+    "value" : "Create Product"
+  }, {
+    "name" : "tag",
+    "value" : "admin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_create_product"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_create_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "admin" ]
+  },
+  "source" : "d00fc6efe29fcda.json",
+  "parameterValues" : [ ]
+}

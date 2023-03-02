@@ -1,0 +1,5 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_order.py:55 {'Method': 'POST', 'Receiver': '陳大文', 'Email': 'abc@abc.com', 'Mobile': '0912345678', 'Address': '台北市', 'Deliver Time': 'anytime', 'Credit Card No': '4242 4242 4242 4242', 'Expiry Date': '1269', 'Security Code': '123', 'Subtotal': '0', 'Freight': '30', 'Total': '0', 'list': '[]', 'Http_status_code': '400', 'Alert Msg': 'Order List is required.'}
+[32mINFO    [0m root:order_api.py:32 payload: {'prime': '1cd1fed96c0909f284a6673f813dc0df4f9e743a7376a7e94094f0f5b1c30355', 'order': {'shipping': 'delivery', 'payment': 'credit_card', 'subtotal': 0, 'freight': 30, 'total': 0, 'recipient': {'name': '陳大文', 'phone': '0912345678', 'email': 'abc@abc.com', 'address': '台北市', 'time': 'anytime'}, 'list': []}}

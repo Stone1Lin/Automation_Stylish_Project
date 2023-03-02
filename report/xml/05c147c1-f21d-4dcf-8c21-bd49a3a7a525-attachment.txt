@@ -1,0 +1,4 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_api_admin.py:65 {'Category': 'women', 'Title': '連衣裙', 'Description': '詳細內容', 'Price': '100', 'Texture': '棉', 'Wash': '手洗', 'Place of Product': 'Taiwan', 'Note': 'Notes', 'ColorIDs': '2,3', 'Sizes': 'A', 'Story': 'Story Content', 'Main Image': 'sample image', 'Other Image 1': 'sample image', 'Other Image 2': 'sample image', 'Error Msg': "Size should be 'S', 'M', 'L', 'XL', 'F' Only", 'Http_Status_code': '400'}

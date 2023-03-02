@@ -1,0 +1,1601 @@
+[ {
+  "uid" : "fc01676a3302e6eb",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720905292,
+    "stop" : 1677720909781,
+    "duration" : 4489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdb3de8647fb9c34",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719829241,
+    "stop" : 1677719830482,
+    "duration" : 1241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ca864390df372ed",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719781181,
+    "stop" : 1677719782472,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbe8f3551d6d42c3",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719918284,
+    "stop" : 1677719922770,
+    "duration" : 4486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc99348129b5cd55",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720884116,
+    "stop" : 1677720888699,
+    "duration" : 4583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e93f6f42a6c8b825",
+  "name" : "Search product success with \"洋裝\" keywork",
+  "time" : {
+    "start" : 1677720032969,
+    "stop" : 1677720045089,
+    "duration" : 12120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34a2d74bf72aeba8",
+  "name" : "Alert message should be shown correctly.",
+  "time" : {
+    "start" : 1677720331825,
+    "stop" : 1677720348606,
+    "duration" : 16781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "620ac9142931369",
+  "name" : "Create Product Success.",
+  "time" : {
+    "start" : 1677720874934,
+    "stop" : 1677720881436,
+    "duration" : 6502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6db6a36fed322fa",
+  "name" : "Search product success with \"襯\" keywork",
+  "time" : {
+    "start" : 1677720047368,
+    "stop" : 1677720065054,
+    "duration" : 17686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92b33221476552e7",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719812087,
+    "stop" : 1677719813346,
+    "duration" : 1259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "397e03c2ed656234",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720960964,
+    "stop" : 1677720965454,
+    "duration" : 4490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1e20e5458a89b1a",
+  "name" : "Create Product without login.",
+  "time" : {
+    "start" : 1677721031519,
+    "stop" : 1677721033749,
+    "duration" : 2230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd5049adb9bfaf4e",
+  "name" : "Create Product without login.",
+  "time" : {
+    "start" : 1677721027429,
+    "stop" : 1677721028595,
+    "duration" : 1166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "887d7d2e8f4ddba5",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719924959,
+    "stop" : 1677719929650,
+    "duration" : 4691
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c238b20e4348ad4c",
+  "name" : "Search product with paging is over than 6.",
+  "time" : {
+    "start" : 1677720095743,
+    "stop" : 1677720096056,
+    "duration" : 313
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b5216653c5d9f0c",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719987057,
+    "stop" : 1677719991570,
+    "duration" : 4513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30a0d68bd4f9692b",
+  "name" : "Login failure with invalid email & password.",
+  "time" : {
+    "start" : 1677721048545,
+    "stop" : 1677721050292,
+    "duration" : 1747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4313deb748e93d2d",
+  "name" : "Logout failed and expected result should be correct.",
+  "time" : {
+    "start" : 1677720287730,
+    "stop" : 1677720288041,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd97582ae1f214f1",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719993728,
+    "stop" : 1677719998202,
+    "duration" : 4474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6147ba2d172df7f9",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719965955,
+    "stop" : 1677719970404,
+    "duration" : 4449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18a6f0c6eeb5480c",
+  "name" : "Create & delete product API within valid value and get new product id",
+  "time" : {
+    "start" : 1677719760142,
+    "stop" : 1677719764865,
+    "duration" : 4723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8018747f5982047a",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719791667,
+    "stop" : 1677719792924,
+    "duration" : 1257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb3281cfcaab1ad4",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720603882,
+    "stop" : 1677720626361,
+    "duration" : 22479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42243034959aa7a4",
+  "name" : "Search product with paging is less than zero.",
+  "time" : {
+    "start" : 1677720093071,
+    "stop" : 1677720093383,
+    "duration" : 312
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e395e28d1f27c772",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719808614,
+    "stop" : 1677719809921,
+    "duration" : 1307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7327af7802ac1fbd",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719945638,
+    "stop" : 1677719950052,
+    "duration" : 4414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab7f4362182d5e89",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719777591,
+    "stop" : 1677719778880,
+    "duration" : 1289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f24bee6bcf3c4407",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720274079,
+    "stop" : 1677720274470,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c780073c1a1061",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720940099,
+    "stop" : 1677720944624,
+    "duration" : 4525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b36411094ea992d",
+  "name" : "Size Selection",
+  "time" : {
+    "start" : 1677721078845,
+    "stop" : 1677721086486,
+    "duration" : 7641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b33b343cee83a9e",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719815525,
+    "stop" : 1677719816705,
+    "duration" : 1180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6ccdb0a2184dc26",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719818881,
+    "stop" : 1677719820061,
+    "duration" : 1180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b73d67f2f651dc6e",
+  "name" : "Color Selection",
+  "time" : {
+    "start" : 1677721068834,
+    "stop" : 1677721076480,
+    "duration" : 7646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "208a83840d1540b1",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719979713,
+    "stop" : 1677719984800,
+    "duration" : 5087
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4df02dfdf90bb87",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719846264,
+    "stop" : 1677719847566,
+    "duration" : 1302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21c5f7ee2253e92",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719825832,
+    "stop" : 1677719827039,
+    "duration" : 1207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb040e2fbcbfc43d",
+  "name" : "Get failure with invalid category.",
+  "time" : {
+    "start" : 1677720257874,
+    "stop" : 1677720258179,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efad5899ca943ef3",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720451844,
+    "stop" : 1677720474708,
+    "duration" : 22864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "601f4afb0303b0b3",
+  "name" : "Checkout API response within valid value and get order id",
+  "time" : {
+    "start" : 1677719875633,
+    "stop" : 1677719880632,
+    "duration" : 4999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b20c2c159357587",
+  "name" : "Subtotal should be updated correctly",
+  "time" : {
+    "start" : 1677721205671,
+    "stop" : 1677721214340,
+    "duration" : 8669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8eae11fe6601d9d",
+  "name" : "Create & delete product API within valid value and get new product id",
+  "time" : {
+    "start" : 1677719751435,
+    "stop" : 1677719757613,
+    "duration" : 6178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0fab94c0fbe4172",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720981950,
+    "stop" : 1677720986386,
+    "duration" : 4436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "593cf6d5e9e8cbcb",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720678991,
+    "stop" : 1677720701191,
+    "duration" : 22200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73c1703359f243f",
+  "name" : "Delete product API with invalid value.",
+  "time" : {
+    "start" : 1677719856601,
+    "stop" : 1677719856919,
+    "duration" : 318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8d242fff236b71d",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720891024,
+    "stop" : 1677720895532,
+    "duration" : 4508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cace0133834a9b7",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719805225,
+    "stop" : 1677719806454,
+    "duration" : 1229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7a70e670d97d034",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720912143,
+    "stop" : 1677720916520,
+    "duration" : 4377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19fd3f0ddddab3ce",
+  "name" : "Logout success and expected result should be correct.",
+  "time" : {
+    "start" : 1677720281650,
+    "stop" : 1677720282976,
+    "duration" : 1326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6555cdcc3afb0f7",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720954180,
+    "stop" : 1677720958647,
+    "duration" : 4467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27d2152dd7fa3f9",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719890242,
+    "stop" : 1677719895071,
+    "duration" : 4829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6e3d7240121f5d",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719897372,
+    "stop" : 1677719902359,
+    "duration" : 4987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d5ee2b9d4ca4fc0",
+  "name" : "Checkout API response within valid value and get order id",
+  "time" : {
+    "start" : 1677719882833,
+    "stop" : 1677719888020,
+    "duration" : 5187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ab76e2ea4afd7c",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719938732,
+    "stop" : 1677719943327,
+    "duration" : 4595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0c4a5fbe38637ca",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719801845,
+    "stop" : 1677719803053,
+    "duration" : 1208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e908a9f7daad097e",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720268836,
+    "stop" : 1677720269146,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aedc19377200c5e8",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719853191,
+    "stop" : 1677719854404,
+    "duration" : 1213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd9a88cfe05b91c4",
+  "name" : "Ensure Category result is fitting: ['women', 'men', 'accessories']",
+  "time" : {
+    "start" : 1677720314817,
+    "stop" : 1677720320796,
+    "duration" : 5979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df21d8b634d14e39",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677721009778,
+    "stop" : 1677721014062,
+    "duration" : 4284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b2721960532e14d",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719795079,
+    "stop" : 1677719796298,
+    "duration" : 1219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76500409868589bb",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677721002324,
+    "stop" : 1677721007434,
+    "duration" : 5110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67678222272d7fbe",
+  "name" : "Search product without keyword.",
+  "time" : {
+    "start" : 1677720090440,
+    "stop" : 1677720090751,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6d873576f1fdc6d",
+  "name" : "Checkout API response within valid value and get order id",
+  "time" : {
+    "start" : 1677719867770,
+    "stop" : 1677719873279,
+    "duration" : 5509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dddf2dd14c0997a",
+  "name" : "Login failure with invalid email & password.",
+  "time" : {
+    "start" : 1677721052733,
+    "stop" : 1677721054688,
+    "duration" : 1955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fc0507191f5043f",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719931940,
+    "stop" : 1677719936534,
+    "duration" : 4594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d67bc4af8b488d7",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720753694,
+    "stop" : 1677720775850,
+    "duration" : 22156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa86d9003e112395",
+  "name" : "Logout failed and expected result should be correct.",
+  "time" : {
+    "start" : 1677720290224,
+    "stop" : 1677720290540,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b62636eca58a323",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720426687,
+    "stop" : 1677720449515,
+    "duration" : 22828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e496a51aa202798",
+  "name" : "Login success and expected result should be correct.",
+  "time" : {
+    "start" : 1677720260439,
+    "stop" : 1677720261621,
+    "duration" : 1182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9953a96a0eb80b44",
+  "name" : "404 not find if empty category request.",
+  "time" : {
+    "start" : 1677720252823,
+    "stop" : 1677720253129,
+    "duration" : 306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd1da5ae34f3f102",
+  "name" : "Add To Cart - Failed.",
+  "time" : {
+    "start" : 1677721129031,
+    "stop" : 1677721136144,
+    "duration" : 7113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45ecb830f47ee8eb",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720553247,
+    "stop" : 1677720575591,
+    "duration" : 22344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bcb9731e8a4e895",
+  "name" : "Delete product API with invalid value.",
+  "time" : {
+    "start" : 1677719859196,
+    "stop" : 1677719859808,
+    "duration" : 612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13e93fba29d1f651",
+  "name" : "Alert message 付款成功 should be shown with valid value.",
+  "time" : {
+    "start" : 1677720778262,
+    "stop" : 1677720802078,
+    "duration" : 23816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eee56664993e9de",
+  "name" : "Get accessories category & paging success.",
+  "time" : {
+    "start" : 1677720166313,
+    "stop" : 1677720182889,
+    "duration" : 16576
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a1ca03888d2713e",
+  "name" : "Get women category & paging success.",
+  "time" : {
+    "start" : 1677720126401,
+    "stop" : 1677720163949,
+    "duration" : 37548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab7ff5a743dadfa5",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719911366,
+    "stop" : 1677719916064,
+    "duration" : 4698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd5bff252de9ba07",
+  "name" : "Quantity Editor - Increase Quantity.",
+  "time" : {
+    "start" : 1677721099020,
+    "stop" : 1677721106689,
+    "duration" : 7669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea315d6c6443526e",
+  "name" : "Quantity Editor Disabled",
+  "time" : {
+    "start" : 1677721088953,
+    "stop" : 1677721096660,
+    "duration" : 7707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3df20b7a9f02b17",
+  "name" : "Login with invalid access token.",
+  "time" : {
+    "start" : 1677721061220,
+    "stop" : 1677721066496,
+    "duration" : 5276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25bc68d7be9727ec",
+  "name" : "Add To Cart - Success.",
+  "time" : {
+    "start" : 1677721119420,
+    "stop" : 1677721126474,
+    "duration" : 7054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "172e856b1e9c7441",
+  "name" : "Search product id by characters.",
+  "time" : {
+    "start" : 1677720105744,
+    "stop" : 1677720106057,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4ee2657781e4c7c",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720375795,
+    "stop" : 1677720398844,
+    "duration" : 23049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a21fdc386e53799",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720628854,
+    "stop" : 1677720651280,
+    "duration" : 22426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dad6c86c738d5175",
+  "name" : "Search product success with \"hello\" keywork",
+  "time" : {
+    "start" : 1677720067285,
+    "stop" : 1677720068388,
+    "duration" : 1103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f46683ea72bef3a",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720918909,
+    "stop" : 1677720923424,
+    "duration" : 4515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bb2ed478af00c59",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720577997,
+    "stop" : 1677720601530,
+    "duration" : 23533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2228d6d29d8fa556",
+  "name" : "Get Order API response within invalid value and get correct response and error message.",
+  "time" : {
+    "start" : 1677720027676,
+    "stop" : 1677720028232,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "958b18e02932294a",
+  "name" : "Create & delete product API within valid value and get new product id",
+  "time" : {
+    "start" : 1677719767120,
+    "stop" : 1677719771871,
+    "duration" : 4751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7a251ca34e8834f",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720477050,
+    "stop" : 1677720500013,
+    "duration" : 22963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61e624e03ad6a521",
+  "name" : "Get all category success without paging.",
+  "time" : {
+    "start" : 1677720185199,
+    "stop" : 1677720250604,
+    "duration" : 65405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f526329429399f8",
+  "name" : "Alert message 付款成功 should be shown with valid value.",
+  "time" : {
+    "start" : 1677720804900,
+    "stop" : 1677720828335,
+    "duration" : 23435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d768214db771605",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719774127,
+    "stop" : 1677719775310,
+    "duration" : 1183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5cabbd0ea1f08c7",
+  "name" : "Get Order API response within invalid value and get correct response and error message.",
+  "time" : {
+    "start" : 1677720030502,
+    "stop" : 1677720030805,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e57c6507039dec51",
+  "name" : "Search product id by invalid product_id.",
+  "time" : {
+    "start" : 1677720098409,
+    "stop" : 1677720103419,
+    "duration" : 5010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81ca252ba7c9d1f3",
+  "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+  "time" : {
+    "start" : 1677721149636,
+    "stop" : 1677721161933,
+    "duration" : 12297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b2b89cc56817eaa",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719904597,
+    "stop" : 1677719909058,
+    "duration" : 4461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bbeec3b568493af",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720279146,
+    "stop" : 1677720279486,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f473c3341db0fecf",
+  "name" : "Login failure with invalid email & password.",
+  "time" : {
+    "start" : 1677721057057,
+    "stop" : 1677721058817,
+    "duration" : 1760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "159da8bac128621a",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720263796,
+    "stop" : 1677720264099,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fd41a3041f3ea0e",
+  "name" : "Get Order API response within valid value and compare with DB result.",
+  "time" : {
+    "start" : 1677720017730,
+    "stop" : 1677720019160,
+    "duration" : 1430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f99ef70395d5e1e9",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720703697,
+    "stop" : 1677720726115,
+    "duration" : 22418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3bb5163e900bfd5",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677721016471,
+    "stop" : 1677721020846,
+    "duration" : 4375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4e4e561fafbbd29",
+  "name" : "Search product success without paging.",
+  "time" : {
+    "start" : 1677720070589,
+    "stop" : 1677720088179,
+    "duration" : 17590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f46d93ddbc994a23",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677720000472,
+    "stop" : 1677720004972,
+    "duration" : 4500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e52ace36c008dccc",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719839766,
+    "stop" : 1677719840701,
+    "duration" : 935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c204f2bed6823f8b",
+  "name" : "Get profile failed and expected result should be correct.",
+  "time" : {
+    "start" : 1677720299077,
+    "stop" : 1677720299416,
+    "duration" : 339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8afe85fe9e983b7",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720527887,
+    "stop" : 1677720550884,
+    "duration" : 22997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a2665e6c353846a",
+  "name" : "Shopping Cart Info Correct",
+  "time" : {
+    "start" : 1677721178209,
+    "stop" : 1677721185834,
+    "duration" : 7625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f65868d170a6f8",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719822271,
+    "stop" : 1677719823625,
+    "duration" : 1354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd356d6210c4ad5",
+  "name" : "Get profile success and expected result should be correct.",
+  "time" : {
+    "start" : 1677720292856,
+    "stop" : 1677720294238,
+    "duration" : 1382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4be600a8f077d65",
+  "name" : "Search product id by invalid product_id.",
+  "time" : {
+    "start" : 1677720108195,
+    "stop" : 1677720108500,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfe75ed4fcac0c18",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720967873,
+    "stop" : 1677720972474,
+    "duration" : 4601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e05c28c9028b2e",
+  "name" : "Logout failed and expected result should be correct.",
+  "time" : {
+    "start" : 1677720285251,
+    "stop" : 1677720285564,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dc4400ef3148491",
+  "name" : "Get Order API response within invalid value and get correct response and error message.",
+  "time" : {
+    "start" : 1677720024886,
+    "stop" : 1677720025466,
+    "duration" : 580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b3b275213ca7ebe",
+  "name" : "Alert message 付款成功 should be shown with valid value.",
+  "time" : {
+    "start" : 1677720831139,
+    "stop" : 1677720855084,
+    "duration" : 23945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6232fcaa4f085234",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719836231,
+    "stop" : 1677719837522,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97ffd529972533d4",
+  "name" : "Get profile failed and expected result should be correct.",
+  "time" : {
+    "start" : 1677720296550,
+    "stop" : 1677720296854,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33b53daf1cae8d8f",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720276647,
+    "stop" : 1677720276960,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c85197bdb07a527",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719784633,
+    "stop" : 1677719785822,
+    "duration" : 1189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ee75ebfc0f02c1b",
+  "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+  "time" : {
+    "start" : 1677721164448,
+    "stop" : 1677721175683,
+    "duration" : 11235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c4718e6497597c",
+  "name" : "Cart icon number should be updated correctly",
+  "time" : {
+    "start" : 1677721188231,
+    "stop" : 1677721203232,
+    "duration" : 15001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a97a21f76b49a25",
+  "name" : "Get men category & paging success.",
+  "time" : {
+    "start" : 1677720110686,
+    "stop" : 1677720123841,
+    "duration" : 13155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ea6f6d3eaca96ed",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720995439,
+    "stop" : 1677720999972,
+    "duration" : 4533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a5abf12ff00ec0b",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720351076,
+    "stop" : 1677720373411,
+    "duration" : 22335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35e47b3ef064880f",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720988723,
+    "stop" : 1677720993049,
+    "duration" : 4326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac6765330c555a71",
+  "name" : "Quantity Editor - Decrease Quantity.",
+  "time" : {
+    "start" : 1677721109028,
+    "stop" : 1677721117012,
+    "duration" : 7984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb2959c45cf075a",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720502425,
+    "stop" : 1677720525459,
+    "duration" : 23034
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72210f97623b6ed4",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720974835,
+    "stop" : 1677720979576,
+    "duration" : 4741
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73812a66c5736975",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719952284,
+    "stop" : 1677719956796,
+    "duration" : 4512
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "453cab7adce4da41",
+  "name" : "Delete product API with invalid value.",
+  "time" : {
+    "start" : 1677719862083,
+    "stop" : 1677719862634,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cbbbf3e964a26bb",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719798456,
+    "stop" : 1677719799686,
+    "duration" : 1230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de3f7f42bcace543",
+  "name" : "Create Product Success.",
+  "time" : {
+    "start" : 1677720866411,
+    "stop" : 1677720872266,
+    "duration" : 5855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "190bd15e01f0fc0c",
+  "name" : "Ensure Category result is fitting: ['women', 'men', 'accessories']",
+  "time" : {
+    "start" : 1677720304338,
+    "stop" : 1677720312256,
+    "duration" : 7918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6633ada1e042089",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720932521,
+    "stop" : 1677720937684,
+    "duration" : 5163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6523f3687ad61571",
+  "name" : "Login failure with invalid email & password.",
+  "time" : {
+    "start" : 1677721044190,
+    "stop" : 1677721046156,
+    "duration" : 1966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e46ba0b916ef2874",
+  "name" : "Delete product API with invalid value.",
+  "time" : {
+    "start" : 1677719864821,
+    "stop" : 1677719865413,
+    "duration" : 592
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb83d9259a34b287",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719842869,
+    "stop" : 1677719844075,
+    "duration" : 1206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf865bdf1b7b675c",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720266342,
+    "stop" : 1677720266682,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d00fc6efe29fcda",
+  "name" : "Create Product Success.",
+  "time" : {
+    "start" : 1677720857814,
+    "stop" : 1677720863720,
+    "duration" : 5906
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7f9d03411cb9729",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677720007218,
+    "stop" : 1677720011764,
+    "duration" : 4546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c32621c5580e3d76",
+  "name" : "Get accessories category fail with invalid paging.",
+  "time" : {
+    "start" : 1677720255336,
+    "stop" : 1677720255680,
+    "duration" : 344
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cedabcbf3dd1a4ef",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720728610,
+    "stop" : 1677720750856,
+    "duration" : 22246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7afe19ca9f63ce7",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720401206,
+    "stop" : 1677720424156,
+    "duration" : 22950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ebe22958c84beb8",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720897922,
+    "stop" : 1677720902679,
+    "duration" : 4757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "844d563b69f4731a",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720946935,
+    "stop" : 1677720951802,
+    "duration" : 4867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13251b4e86bd1e3c",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719832670,
+    "stop" : 1677719834019,
+    "duration" : 1349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbf8f399e13ec033",
+  "name" : "Create Product without login.",
+  "time" : {
+    "start" : 1677721023222,
+    "stop" : 1677721024561,
+    "duration" : 1339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e083fa39b237aac3",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719788016,
+    "stop" : 1677719789409,
+    "duration" : 1393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ee4101b1387f9c0",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719958990,
+    "stop" : 1677719963769,
+    "duration" : 4779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e0a2ba1347543ae",
+  "name" : "Get Order API response within valid value and compare with DB result.",
+  "time" : {
+    "start" : 1677720014114,
+    "stop" : 1677720015521,
+    "duration" : 1407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcbbe71fa95fa1d",
+  "name" : "Related alert message should be shown with invalid value.",
+  "time" : {
+    "start" : 1677720653929,
+    "stop" : 1677720676586,
+    "duration" : 22657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ad699cba4235a02",
+  "name" : "Login and Logout Success.",
+  "time" : {
+    "start" : 1677721036675,
+    "stop" : 1677721041765,
+    "duration" : 5090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eae0c4e61c372089",
+  "name" : "Ensure Category result is fitting: ['women', 'men', 'accessories']",
+  "time" : {
+    "start" : 1677720323364,
+    "stop" : 1677720329201,
+    "duration" : 5837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3269d7d824b5cc3",
+  "name" : "Create product API within invalid value.",
+  "time" : {
+    "start" : 1677719849762,
+    "stop" : 1677719850986,
+    "duration" : 1224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee849d126653d6b1",
+  "name" : "Checkout API response within invalid value and get correct response and error message",
+  "time" : {
+    "start" : 1677719972855,
+    "stop" : 1677719977514,
+    "duration" : 4659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92cafc30956c28cd",
+  "name" : "Create Product Failed.",
+  "time" : {
+    "start" : 1677720925737,
+    "stop" : 1677720930135,
+    "duration" : 4398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ce8bf65a4542704",
+  "name" : "Get Order API response within valid value and compare with DB result.",
+  "time" : {
+    "start" : 1677720021330,
+    "stop" : 1677720022682,
+    "duration" : 1352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d63a7261a186595d",
+  "name" : "Get profile failed and expected result should be correct.",
+  "time" : {
+    "start" : 1677720301682,
+    "stop" : 1677720301994,
+    "duration" : 312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feb40c1fc30224f7",
+  "name" : "Alert message and expected result should be correct.",
+  "time" : {
+    "start" : 1677720271455,
+    "stop" : 1677720271905,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ed13b9679ee9c6e",
+  "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+  "time" : {
+    "start" : 1677721138572,
+    "stop" : 1677721147091,
+    "duration" : 8519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

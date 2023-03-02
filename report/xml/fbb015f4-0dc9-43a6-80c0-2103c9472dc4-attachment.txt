@@ -1,0 +1,4 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_user.py:98 {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm92aWRlciI6Im5hdGl2ZSIsIm5hbWUiOiJzdG9uZV8wMSIsImVtYWlsIjoic3RvbmUrMDJAdGVzdC5jb20iLCJwaWN0dXJlIjpudWxsLCJpYXQiOjE2NzA1OTkzMzZ9.8jvf6Vmt8lR8X87WB0k9kqKPWc89bHlXKPHHiZTR6FQ'}

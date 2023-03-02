@@ -1,0 +1,5 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_web_product_page.py:73 Random select size is:L
+[32mINFO    [0m root:test_web_product_page.py:77 Highlight size is:L

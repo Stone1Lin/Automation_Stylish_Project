@@ -1,0 +1,4 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_order.py:112 {'Description': 'Get order without auth token', 'Method': 'GET', 'order_number': '913124307799', 'Token': 'False', 'Http_status_code': '401', 'error msg': 'Unauthorized'}

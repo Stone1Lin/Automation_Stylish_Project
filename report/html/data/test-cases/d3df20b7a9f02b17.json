@@ -1,0 +1,267 @@
+{
+  "uid" : "d3df20b7a9f02b17",
+  "name" : "Login with invalid access token.",
+  "fullName" : "tests_web.test_web_login#test_login_with_invalid_access_token",
+  "historyId" : "d39c45ca6f4802403c424ae9c5dc192e",
+  "time" : {
+    "start" : 1677721061220,
+    "stop" : 1677721066496,
+    "duration" : 5276
+  },
+  "description" : "\n    Scenario: Login with invalid access token\n    Given member login with correct email and password\n    And login success and copy the jwt token\n    And member logout\n    And logout success\n    When using the jwt token to access member page\n    Then error message \"Invalid Token\"\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Login with invalid access token\nGiven member login with correct email and password\nAnd login success and copy the jwt token\nAnd member logout\nAnd logout success\nWhen using the jwt token to access member page\nThen error message &quot;Invalid Token&quot;\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677721059052,
+      "stop" : 1677721061219,
+      "duration" : 2167
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Login with invalid access token\n    Given member login with correct email and password\n    And login success and copy the jwt token\n    And member logout\n    And logout success\n    When using the jwt token to access member page\n    Then error message \"Invalid Token\"\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login with correct email and password",
+      "time" : {
+        "start" : 1677721061696,
+        "stop" : 1677721062462,
+        "duration" : 766
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Login success and copy the jwt token",
+      "time" : {
+        "start" : 1677721062462,
+        "stop" : 1677721063453,
+        "duration" : 991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "logout success and set jwt token in local storage",
+      "time" : {
+        "start" : 1677721063453,
+        "stop" : 1677721065062,
+        "duration" : 1609
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Using the jwt token to visit profile page.",
+      "time" : {
+        "start" : 1677721065062,
+        "stop" : 1677721065503,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify alert message is correct.",
+      "time" : {
+        "start" : 1677721065503,
+        "stop" : 1677721066016,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Redirect to Login page",
+      "time" : {
+        "start" : 1677721066017,
+        "stop" : 1677721066495,
+        "duration" : 478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1e83d11dedcc1a40",
+      "name" : "screenshot",
+      "source" : "1e83d11dedcc1a40.png",
+      "type" : "image/png",
+      "size" : 10554
+    }, {
+      "uid" : "2d82df29a7edc1cf",
+      "name" : "log",
+      "source" : "2d82df29a7edc1cf.txt",
+      "type" : "text/plain",
+      "size" : 579
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677721066634,
+      "stop" : 1677721066706,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Using invalid access token to visit profile page."
+  }, {
+    "name" : "feature",
+    "value" : "Access Authorization"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_login"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "d3df20b7a9f02b17.json",
+  "parameterValues" : [ ]
+}

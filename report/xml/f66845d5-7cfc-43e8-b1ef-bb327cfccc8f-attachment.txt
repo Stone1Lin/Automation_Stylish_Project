@@ -1,0 +1,8 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_web_shopping_cart.py:80 product: 小扇紋細織上衣, cart_info:已加入購物車
+[32mINFO    [0m root:test_web_shopping_cart.py:80 product: 卡哇伊多功能隨身包, cart_info:已加入購物車
+[32mINFO    [0m root:test_web_shopping_cart.py:82 prod_select: ['小扇紋細織上衣', '卡哇伊多功能隨身包']
+[32mINFO    [0m root:test_web_shopping_cart.py:89 Delete_prod_name: 小扇紋細織上衣
+[32mINFO    [0m root:product_page.py:84 Get Cart Num: 1

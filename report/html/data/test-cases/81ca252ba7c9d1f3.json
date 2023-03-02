@@ -1,0 +1,255 @@
+{
+  "uid" : "81ca252ba7c9d1f3",
+  "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+  "fullName" : "tests_web.test_web_search#test_prod_search",
+  "historyId" : "68811dca07149054477e181f518d32e0",
+  "time" : {
+    "start" : 1677721149636,
+    "stop" : 1677721161933,
+    "duration" : 12297
+  },
+  "description" : "\n    Scenario: Search Product By Keyword\n    When search with keyword \"洋裝\"\n    Then all searched product title should be included \"洋裝\"\n\n    Scenario: Search Product Without Keyword\n    When search with empty keyword\n    Then all products should be displayed\n\n    Scenario: Search Product - No Product Found\n    When search with keyword \"Hello\"\n    Then no product should be displayed\n    ",
+  "descriptionHtml" : "<pre><code>Scenario: Search Product By Keyword\nWhen search with keyword &quot;洋裝&quot;\nThen all searched product title should be included &quot;洋裝&quot;\n\nScenario: Search Product Without Keyword\nWhen search with empty keyword\nThen all products should be displayed\n\nScenario: Search Product - No Product Found\nWhen search with keyword &quot;Hello&quot;\nThen no product should be displayed\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1677721147464,
+      "stop" : 1677721149634,
+      "duration" : 2170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1677719747951,
+      "stop" : 1677719747951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n    Scenario: Search Product By Keyword\n    When search with keyword \"洋裝\"\n    Then all searched product title should be included \"洋裝\"\n\n    Scenario: Search Product Without Keyword\n    When search with empty keyword\n    Then all products should be displayed\n\n    Scenario: Search Product - No Product Found\n    When search with keyword \"Hello\"\n    Then no product should be displayed\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get SQL query result:",
+      "time" : {
+        "start" : 1677721149636,
+        "stop" : 1677721150399,
+        "duration" : 763
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get web query result.",
+      "time" : {
+        "start" : 1677721150399,
+        "stop" : 1677721161856,
+        "duration" : 11457
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get product search results.",
+        "time" : {
+          "start" : 1677721150399,
+          "stop" : 1677721161702,
+          "duration" : 11303
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Search product by product name.",
+          "time" : {
+            "start" : 1677721150399,
+            "stop" : 1677721159666,
+            "duration" : 9267
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "prod_name",
+            "value" : "''"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "prod_name",
+          "value" : "''"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify result & data set.",
+      "time" : {
+        "start" : 1677721161856,
+        "stop" : 1677721161932,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b3ab53120d927e5a",
+      "name" : "screenshot",
+      "source" : "b3ab53120d927e5a.png",
+      "type" : "image/png",
+      "size" : 375998
+    }, {
+      "uid" : "1bd32504b132a100",
+      "name" : "log",
+      "source" : "1bd32504b132a100.txt",
+      "type" : "text/plain",
+      "size" : 8488
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1677721162164,
+      "stop" : 1677721162270,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Search Product"
+  }, {
+    "name" : "tag",
+    "value" : "search"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_search"
+  }, {
+    "name" : "host",
+    "value" : "Lins-MBP.GoMore-3F"
+  }, {
+    "name" : "thread",
+    "value" : "42545-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests_web.test_web_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "search" ]
+  },
+  "source" : "81ca252ba7c9d1f3.json",
+  "parameterValues" : [ ]
+}

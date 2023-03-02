@@ -1,0 +1,2137 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_api",
+    "children" : [ {
+      "name" : "test_api_admin",
+      "children" : [ {
+        "name" : "Create & delete product API within valid value and get new product id",
+        "uid" : "f8eae11fe6601d9d",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719751435,
+          "stop" : 1677719757613,
+          "duration" : 6178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create & delete product API within valid value and get new product id",
+        "uid" : "18a6f0c6eeb5480c",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719760142,
+          "stop" : 1677719764865,
+          "duration" : 4723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create & delete product API within valid value and get new product id",
+        "uid" : "958b18e02932294a",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719767120,
+          "stop" : 1677719771871,
+          "duration" : 4751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "3d768214db771605",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719774127,
+          "stop" : 1677719775310,
+          "duration" : 1183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "ab7f4362182d5e89",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719777591,
+          "stop" : 1677719778880,
+          "duration" : 1289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "7ca864390df372ed",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719781181,
+          "stop" : 1677719782472,
+          "duration" : 1291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "6c85197bdb07a527",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719784633,
+          "stop" : 1677719785822,
+          "duration" : 1189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "e083fa39b237aac3",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719788016,
+          "stop" : 1677719789409,
+          "duration" : 1393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "8018747f5982047a",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719791667,
+          "stop" : 1677719792924,
+          "duration" : 1257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "1b2721960532e14d",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719795079,
+          "stop" : 1677719796298,
+          "duration" : 1219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "6cbbbf3e964a26bb",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719798456,
+          "stop" : 1677719799686,
+          "duration" : 1230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "c0c4a5fbe38637ca",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719801845,
+          "stop" : 1677719803053,
+          "duration" : 1208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "5cace0133834a9b7",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719805225,
+          "stop" : 1677719806454,
+          "duration" : 1229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "e395e28d1f27c772",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719808614,
+          "stop" : 1677719809921,
+          "duration" : 1307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "92b33221476552e7",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719812087,
+          "stop" : 1677719813346,
+          "duration" : 1259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "2b33b343cee83a9e",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719815525,
+          "stop" : 1677719816705,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "d6ccdb0a2184dc26",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719818881,
+          "stop" : 1677719820061,
+          "duration" : 1180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "e1f65868d170a6f8",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719822271,
+          "stop" : 1677719823625,
+          "duration" : 1354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "21c5f7ee2253e92",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719825832,
+          "stop" : 1677719827039,
+          "duration" : 1207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "bdb3de8647fb9c34",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719829241,
+          "stop" : 1677719830482,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "13251b4e86bd1e3c",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719832670,
+          "stop" : 1677719834019,
+          "duration" : 1349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "6232fcaa4f085234",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719836231,
+          "stop" : 1677719837522,
+          "duration" : 1291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "e52ace36c008dccc",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719839766,
+          "stop" : 1677719840701,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "cb83d9259a34b287",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719842869,
+          "stop" : 1677719844075,
+          "duration" : 1206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "e4df02dfdf90bb87",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719846264,
+          "stop" : 1677719847566,
+          "duration" : 1302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "a3269d7d824b5cc3",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719849762,
+          "stop" : 1677719850986,
+          "duration" : 1224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create product API within invalid value.",
+        "uid" : "aedc19377200c5e8",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719853191,
+          "stop" : 1677719854404,
+          "duration" : 1213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete product API with invalid value.",
+        "uid" : "73c1703359f243f",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719856601,
+          "stop" : 1677719856919,
+          "duration" : 318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete product API with invalid value.",
+        "uid" : "3bcb9731e8a4e895",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719859196,
+          "stop" : 1677719859808,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete product API with invalid value.",
+        "uid" : "453cab7adce4da41",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719862083,
+          "stop" : 1677719862634,
+          "duration" : 551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete product API with invalid value.",
+        "uid" : "e46ba0b916ef2874",
+        "parentUid" : "0cf84edcb3ce25fc876d2a1ca2dc1453",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677719864821,
+          "stop" : 1677719865413,
+          "duration" : 592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cf84edcb3ce25fc876d2a1ca2dc1453"
+    }, {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "Checkout API response within valid value and get order id",
+        "uid" : "e6d873576f1fdc6d",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719867770,
+          "stop" : 1677719873279,
+          "duration" : 5509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within valid value and get order id",
+        "uid" : "601f4afb0303b0b3",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719875633,
+          "stop" : 1677719880632,
+          "duration" : 4999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within valid value and get order id",
+        "uid" : "8d5ee2b9d4ca4fc0",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719882833,
+          "stop" : 1677719888020,
+          "duration" : 5187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "27d2152dd7fa3f9",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719890242,
+          "stop" : 1677719895071,
+          "duration" : 4829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "b6e3d7240121f5d",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719897372,
+          "stop" : 1677719902359,
+          "duration" : 4987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "9b2b89cc56817eaa",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719904597,
+          "stop" : 1677719909058,
+          "duration" : 4461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "ab7ff5a743dadfa5",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719911366,
+          "stop" : 1677719916064,
+          "duration" : 4698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "fbe8f3551d6d42c3",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719918284,
+          "stop" : 1677719922770,
+          "duration" : 4486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "887d7d2e8f4ddba5",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719924959,
+          "stop" : 1677719929650,
+          "duration" : 4691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "4fc0507191f5043f",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719931940,
+          "stop" : 1677719936534,
+          "duration" : 4594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "1ab76e2ea4afd7c",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719938732,
+          "stop" : 1677719943327,
+          "duration" : 4595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "7327af7802ac1fbd",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719945638,
+          "stop" : 1677719950052,
+          "duration" : 4414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "73812a66c5736975",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719952284,
+          "stop" : 1677719956796,
+          "duration" : 4512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "5ee4101b1387f9c0",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719958990,
+          "stop" : 1677719963769,
+          "duration" : 4779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "6147ba2d172df7f9",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719965955,
+          "stop" : 1677719970404,
+          "duration" : 4449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "ee849d126653d6b1",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719972855,
+          "stop" : 1677719977514,
+          "duration" : 4659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "208a83840d1540b1",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719979713,
+          "stop" : 1677719984800,
+          "duration" : 5087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "8b5216653c5d9f0c",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719987057,
+          "stop" : 1677719991570,
+          "duration" : 4513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "dd97582ae1f214f1",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677719993728,
+          "stop" : 1677719998202,
+          "duration" : 4474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "f46d93ddbc994a23",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720000472,
+          "stop" : 1677720004972,
+          "duration" : 4500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Checkout API response within invalid value and get correct response and error message",
+        "uid" : "c7f9d03411cb9729",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720007218,
+          "stop" : 1677720011764,
+          "duration" : 4546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Order API response within valid value and compare with DB result.",
+        "uid" : "2e0a2ba1347543ae",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720014114,
+          "stop" : 1677720015521,
+          "duration" : 1407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Order API response within valid value and compare with DB result.",
+        "uid" : "5fd41a3041f3ea0e",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720017730,
+          "stop" : 1677720019160,
+          "duration" : 1430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Order API response within valid value and compare with DB result.",
+        "uid" : "3ce8bf65a4542704",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720021330,
+          "stop" : 1677720022682,
+          "duration" : 1352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Order API response within invalid value and get correct response and error message.",
+        "uid" : "8dc4400ef3148491",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720024886,
+          "stop" : 1677720025466,
+          "duration" : 580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Order API response within invalid value and get correct response and error message.",
+        "uid" : "2228d6d29d8fa556",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720027676,
+          "stop" : 1677720028232,
+          "duration" : 556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get Order API response within invalid value and get correct response and error message.",
+        "uid" : "c5cabbd0ea1f08c7",
+        "parentUid" : "f5d960f29a463d45119b9a48a4ba5dcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720030502,
+          "stop" : 1677720030805,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5d960f29a463d45119b9a48a4ba5dcf"
+    }, {
+      "name" : "test_product",
+      "children" : [ {
+        "name" : "Search product success with \"洋裝\" keywork",
+        "uid" : "e93f6f42a6c8b825",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720032969,
+          "stop" : 1677720045089,
+          "duration" : 12120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product success with \"襯\" keywork",
+        "uid" : "e6db6a36fed322fa",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720047368,
+          "stop" : 1677720065054,
+          "duration" : 17686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product success with \"hello\" keywork",
+        "uid" : "dad6c86c738d5175",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720067285,
+          "stop" : 1677720068388,
+          "duration" : 1103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product success without paging.",
+        "uid" : "a4e4e561fafbbd29",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720070589,
+          "stop" : 1677720088179,
+          "duration" : 17590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product without keyword.",
+        "uid" : "67678222272d7fbe",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720090440,
+          "stop" : 1677720090751,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product with paging is less than zero.",
+        "uid" : "42243034959aa7a4",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677720093071,
+          "stop" : 1677720093383,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product with paging is over than 6.",
+        "uid" : "c238b20e4348ad4c",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677720095743,
+          "stop" : 1677720096056,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product id by invalid product_id.",
+        "uid" : "e57c6507039dec51",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720098409,
+          "stop" : 1677720103419,
+          "duration" : 5010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product id by characters.",
+        "uid" : "172e856b1e9c7441",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720105744,
+          "stop" : 1677720106057,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search product id by invalid product_id.",
+        "uid" : "c4be600a8f077d65",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720108195,
+          "stop" : 1677720108500,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get men category & paging success.",
+        "uid" : "4a97a21f76b49a25",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720110686,
+          "stop" : 1677720123841,
+          "duration" : 13155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get women category & paging success.",
+        "uid" : "2a1ca03888d2713e",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720126401,
+          "stop" : 1677720163949,
+          "duration" : 37548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get accessories category & paging success.",
+        "uid" : "1eee56664993e9de",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720166313,
+          "stop" : 1677720182889,
+          "duration" : 16576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get all category success without paging.",
+        "uid" : "61e624e03ad6a521",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720185199,
+          "stop" : 1677720250604,
+          "duration" : 65405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "404 not find if empty category request.",
+        "uid" : "9953a96a0eb80b44",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720252823,
+          "stop" : 1677720253129,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get accessories category fail with invalid paging.",
+        "uid" : "c32621c5580e3d76",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "failed",
+        "time" : {
+          "start" : 1677720255336,
+          "stop" : 1677720255680,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get failure with invalid category.",
+        "uid" : "fb040e2fbcbfc43d",
+        "parentUid" : "05ca9d0b2aa2dc449fe535806b507942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720257874,
+          "stop" : 1677720258179,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05ca9d0b2aa2dc449fe535806b507942"
+    }, {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "Login success and expected result should be correct.",
+        "uid" : "e496a51aa202798",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720260439,
+          "stop" : 1677720261621,
+          "duration" : 1182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "159da8bac128621a",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720263796,
+          "stop" : 1677720264099,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "cf865bdf1b7b675c",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720266342,
+          "stop" : 1677720266682,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "e908a9f7daad097e",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720268836,
+          "stop" : 1677720269146,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "feb40c1fc30224f7",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720271455,
+          "stop" : 1677720271905,
+          "duration" : 450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "f24bee6bcf3c4407",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720274079,
+          "stop" : 1677720274470,
+          "duration" : 391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "33b53daf1cae8d8f",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720276647,
+          "stop" : 1677720276960,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message and expected result should be correct.",
+        "uid" : "4bbeec3b568493af",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720279146,
+          "stop" : 1677720279486,
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout success and expected result should be correct.",
+        "uid" : "19fd3f0ddddab3ce",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720281650,
+          "stop" : 1677720282976,
+          "duration" : 1326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout failed and expected result should be correct.",
+        "uid" : "3e05c28c9028b2e",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720285251,
+          "stop" : 1677720285564,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout failed and expected result should be correct.",
+        "uid" : "4313deb748e93d2d",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720287730,
+          "stop" : 1677720288041,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout failed and expected result should be correct.",
+        "uid" : "aa86d9003e112395",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720290224,
+          "stop" : 1677720290540,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get profile success and expected result should be correct.",
+        "uid" : "dd356d6210c4ad5",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720292856,
+          "stop" : 1677720294238,
+          "duration" : 1382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get profile failed and expected result should be correct.",
+        "uid" : "97ffd529972533d4",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720296550,
+          "stop" : 1677720296854,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get profile failed and expected result should be correct.",
+        "uid" : "c204f2bed6823f8b",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720299077,
+          "stop" : 1677720299416,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get profile failed and expected result should be correct.",
+        "uid" : "d63a7261a186595d",
+        "parentUid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720301682,
+          "stop" : 1677720301994,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1feb05d5ad994da8dcbdf0eefb2ed2b2"
+    } ],
+    "uid" : "afb57f624e472244ee6d0bc8eb8e74ea"
+  }, {
+    "name" : "tests_web",
+    "children" : [ {
+      "name" : "test_web_category",
+      "children" : [ {
+        "name" : "Ensure Category result is fitting: ['women', 'men', 'accessories']",
+        "uid" : "190bd15e01f0fc0c",
+        "parentUid" : "535affa0bd4388ddcf3117f7f7a718b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720304338,
+          "stop" : 1677720312256,
+          "duration" : 7918
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ensure Category result is fitting: ['women', 'men', 'accessories']",
+        "uid" : "cd9a88cfe05b91c4",
+        "parentUid" : "535affa0bd4388ddcf3117f7f7a718b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720314817,
+          "stop" : 1677720320796,
+          "duration" : 5979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ensure Category result is fitting: ['women', 'men', 'accessories']",
+        "uid" : "eae0c4e61c372089",
+        "parentUid" : "535affa0bd4388ddcf3117f7f7a718b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720323364,
+          "stop" : 1677720329201,
+          "duration" : 5837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "535affa0bd4388ddcf3117f7f7a718b0"
+    }, {
+      "name" : "test_web_checkout",
+      "children" : [ {
+        "name" : "Alert message should be shown correctly.",
+        "uid" : "34a2d74bf72aeba8",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720331825,
+          "stop" : 1677720348606,
+          "duration" : 16781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "7a5abf12ff00ec0b",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720351076,
+          "stop" : 1677720373411,
+          "duration" : 22335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "b4ee2657781e4c7c",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720375795,
+          "stop" : 1677720398844,
+          "duration" : 23049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "e7afe19ca9f63ce7",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720401206,
+          "stop" : 1677720424156,
+          "duration" : 22950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "b62636eca58a323",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720426687,
+          "stop" : 1677720449515,
+          "duration" : 22828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "efad5899ca943ef3",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720451844,
+          "stop" : 1677720474708,
+          "duration" : 22864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "b7a251ca34e8834f",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720477050,
+          "stop" : 1677720500013,
+          "duration" : 22963
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "5eb2959c45cf075a",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720502425,
+          "stop" : 1677720525459,
+          "duration" : 23034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "8afe85fe9e983b7",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720527887,
+          "stop" : 1677720550884,
+          "duration" : 22997
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "45ecb830f47ee8eb",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720553247,
+          "stop" : 1677720575591,
+          "duration" : 22344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "4bb2ed478af00c59",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720577997,
+          "stop" : 1677720601530,
+          "duration" : 23533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "bb3281cfcaab1ad4",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720603882,
+          "stop" : 1677720626361,
+          "duration" : 22479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "7a21fdc386e53799",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720628854,
+          "stop" : 1677720651280,
+          "duration" : 22426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "fcbbe71fa95fa1d",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720653929,
+          "stop" : 1677720676586,
+          "duration" : 22657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "593cf6d5e9e8cbcb",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720678991,
+          "stop" : 1677720701191,
+          "duration" : 22200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "f99ef70395d5e1e9",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720703697,
+          "stop" : 1677720726115,
+          "duration" : 22418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "cedabcbf3dd1a4ef",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720728610,
+          "stop" : 1677720750856,
+          "duration" : 22246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Related alert message should be shown with invalid value.",
+        "uid" : "1d67bc4af8b488d7",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720753694,
+          "stop" : 1677720775850,
+          "duration" : 22156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message 付款成功 should be shown with valid value.",
+        "uid" : "13e93fba29d1f651",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720778262,
+          "stop" : 1677720802078,
+          "duration" : 23816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message 付款成功 should be shown with valid value.",
+        "uid" : "1f526329429399f8",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720804900,
+          "stop" : 1677720828335,
+          "duration" : 23435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Alert message 付款成功 should be shown with valid value.",
+        "uid" : "3b3b275213ca7ebe",
+        "parentUid" : "0625ee5325b0c1d65ea91ac769b4fae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720831139,
+          "stop" : 1677720855084,
+          "duration" : 23945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0625ee5325b0c1d65ea91ac769b4fae5"
+    }, {
+      "name" : "test_web_create_product",
+      "children" : [ {
+        "name" : "Create Product Success.",
+        "uid" : "d00fc6efe29fcda",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720857814,
+          "stop" : 1677720863720,
+          "duration" : 5906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Success.",
+        "uid" : "de3f7f42bcace543",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720866411,
+          "stop" : 1677720872266,
+          "duration" : 5855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Success.",
+        "uid" : "620ac9142931369",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720874934,
+          "stop" : 1677720881436,
+          "duration" : 6502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "cc99348129b5cd55",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720884116,
+          "stop" : 1677720888699,
+          "duration" : 4583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "a8d242fff236b71d",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720891024,
+          "stop" : 1677720895532,
+          "duration" : 4508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "6ebe22958c84beb8",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720897922,
+          "stop" : 1677720902679,
+          "duration" : 4757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "fc01676a3302e6eb",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720905292,
+          "stop" : 1677720909781,
+          "duration" : 4489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "d7a70e670d97d034",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720912143,
+          "stop" : 1677720916520,
+          "duration" : 4377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "1f46683ea72bef3a",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720918909,
+          "stop" : 1677720923424,
+          "duration" : 4515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "92cafc30956c28cd",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720925737,
+          "stop" : 1677720930135,
+          "duration" : 4398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "c6633ada1e042089",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720932521,
+          "stop" : 1677720937684,
+          "duration" : 5163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "2c780073c1a1061",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720940099,
+          "stop" : 1677720944624,
+          "duration" : 4525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "844d563b69f4731a",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720946935,
+          "stop" : 1677720951802,
+          "duration" : 4867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "b6555cdcc3afb0f7",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720954180,
+          "stop" : 1677720958647,
+          "duration" : 4467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "397e03c2ed656234",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720960964,
+          "stop" : 1677720965454,
+          "duration" : 4490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "dfe75ed4fcac0c18",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720967873,
+          "stop" : 1677720972474,
+          "duration" : 4601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "72210f97623b6ed4",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720974835,
+          "stop" : 1677720979576,
+          "duration" : 4741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "e0fab94c0fbe4172",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720981950,
+          "stop" : 1677720986386,
+          "duration" : 4436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "35e47b3ef064880f",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720988723,
+          "stop" : 1677720993049,
+          "duration" : 4326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "7ea6f6d3eaca96ed",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677720995439,
+          "stop" : 1677720999972,
+          "duration" : 4533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "76500409868589bb",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721002324,
+          "stop" : 1677721007434,
+          "duration" : 5110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "df21d8b634d14e39",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721009778,
+          "stop" : 1677721014062,
+          "duration" : 4284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product Failed.",
+        "uid" : "a3bb5163e900bfd5",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721016471,
+          "stop" : 1677721020846,
+          "duration" : 4375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product without login.",
+        "uid" : "bbf8f399e13ec033",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721023222,
+          "stop" : 1677721024561,
+          "duration" : 1339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product without login.",
+        "uid" : "bd5049adb9bfaf4e",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721027429,
+          "stop" : 1677721028595,
+          "duration" : 1166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create Product without login.",
+        "uid" : "f1e20e5458a89b1a",
+        "parentUid" : "42938ffc5f9bd40bb4ac645773a1ea9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721031519,
+          "stop" : 1677721033749,
+          "duration" : 2230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42938ffc5f9bd40bb4ac645773a1ea9c"
+    }, {
+      "name" : "test_web_login",
+      "children" : [ {
+        "name" : "Login and Logout Success.",
+        "uid" : "8ad699cba4235a02",
+        "parentUid" : "56cff6a3be25171feaa30997c345fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721036675,
+          "stop" : 1677721041765,
+          "duration" : 5090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login failure with invalid email & password.",
+        "uid" : "6523f3687ad61571",
+        "parentUid" : "56cff6a3be25171feaa30997c345fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721044190,
+          "stop" : 1677721046156,
+          "duration" : 1966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login failure with invalid email & password.",
+        "uid" : "30a0d68bd4f9692b",
+        "parentUid" : "56cff6a3be25171feaa30997c345fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721048545,
+          "stop" : 1677721050292,
+          "duration" : 1747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login failure with invalid email & password.",
+        "uid" : "3dddf2dd14c0997a",
+        "parentUid" : "56cff6a3be25171feaa30997c345fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721052733,
+          "stop" : 1677721054688,
+          "duration" : 1955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login failure with invalid email & password.",
+        "uid" : "f473c3341db0fecf",
+        "parentUid" : "56cff6a3be25171feaa30997c345fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721057057,
+          "stop" : 1677721058817,
+          "duration" : 1760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login with invalid access token.",
+        "uid" : "d3df20b7a9f02b17",
+        "parentUid" : "56cff6a3be25171feaa30997c345fb8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721061220,
+          "stop" : 1677721066496,
+          "duration" : 5276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56cff6a3be25171feaa30997c345fb8e"
+    }, {
+      "name" : "test_web_product_page",
+      "children" : [ {
+        "name" : "Color Selection",
+        "uid" : "b73d67f2f651dc6e",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721068834,
+          "stop" : 1677721076480,
+          "duration" : 7646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Size Selection",
+        "uid" : "4b36411094ea992d",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721078845,
+          "stop" : 1677721086486,
+          "duration" : 7641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Quantity Editor Disabled",
+        "uid" : "ea315d6c6443526e",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721088953,
+          "stop" : 1677721096660,
+          "duration" : 7707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Quantity Editor - Increase Quantity.",
+        "uid" : "dd5bff252de9ba07",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721099020,
+          "stop" : 1677721106689,
+          "duration" : 7669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Quantity Editor - Decrease Quantity.",
+        "uid" : "ac6765330c555a71",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721109028,
+          "stop" : 1677721117012,
+          "duration" : 7984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add To Cart - Success.",
+        "uid" : "25bc68d7be9727ec",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721119420,
+          "stop" : 1677721126474,
+          "duration" : 7054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add To Cart - Failed.",
+        "uid" : "dd1da5ae34f3f102",
+        "parentUid" : "cec3f9bb371b2dde3d9fb5612658e8f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721129031,
+          "stop" : 1677721136144,
+          "duration" : 7113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cec3f9bb371b2dde3d9fb5612658e8f5"
+    }, {
+      "name" : "test_web_search",
+      "children" : [ {
+        "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+        "uid" : "9ed13b9679ee9c6e",
+        "parentUid" : "1ca806e2f84b22edcf23cc6f811c6e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721138572,
+          "stop" : 1677721147091,
+          "duration" : 8519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+        "uid" : "81ca252ba7c9d1f3",
+        "parentUid" : "1ca806e2f84b22edcf23cc6f811c6e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721149636,
+          "stop" : 1677721161933,
+          "duration" : 12297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test Search Product: ['洋裝', '', 'Hello']",
+        "uid" : "7ee75ebfc0f02c1b",
+        "parentUid" : "1ca806e2f84b22edcf23cc6f811c6e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721164448,
+          "stop" : 1677721175683,
+          "duration" : 11235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ca806e2f84b22edcf23cc6f811c6e97"
+    }, {
+      "name" : "test_web_shopping_cart",
+      "children" : [ {
+        "name" : "Shopping Cart Info Correct",
+        "uid" : "6a2665e6c353846a",
+        "parentUid" : "810d2dfcaa933b97735e6d3db8ce8e0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721178209,
+          "stop" : 1677721185834,
+          "duration" : 7625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Cart icon number should be updated correctly",
+        "uid" : "b1c4718e6497597c",
+        "parentUid" : "810d2dfcaa933b97735e6d3db8ce8e0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721188231,
+          "stop" : 1677721203232,
+          "duration" : 15001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Subtotal should be updated correctly",
+        "uid" : "4b20c2c159357587",
+        "parentUid" : "810d2dfcaa933b97735e6d3db8ce8e0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1677721205671,
+          "stop" : 1677721214340,
+          "duration" : 8669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "810d2dfcaa933b97735e6d3db8ce8e0b"
+    } ],
+    "uid" : "5f6667ddf5d24062c652993bb62c0180"
+  } ]
+}

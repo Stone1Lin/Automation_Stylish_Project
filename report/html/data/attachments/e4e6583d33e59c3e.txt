@@ -1,0 +1,8 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:product_page.py:70 Get Quantity Num: 1
+[32mINFO    [0m root:test_web_product_page.py:111 Current quantity value:1
+[32mINFO    [0m root:product_page.py:70 Get Quantity Num: 1
+[32mINFO    [0m root:test_web_product_page.py:118 Current quantity value:1
+[32mINFO    [0m root:test_web_product_page.py:122 Get current quantity on cart button:<selenium.webdriver.remote.webelement.WebElement (session="625ef750f096e6af4ea77eb8bb4a56db", element="51e1a8de-18f2-4007-bfe2-1839980bd2c3")>

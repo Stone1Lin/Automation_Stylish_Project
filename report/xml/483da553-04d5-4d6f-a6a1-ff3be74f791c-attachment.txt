@@ -1,0 +1,4 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 110.0.5481
+[32mINFO    [0m WDM:logger.py:11 Driver [/Users/linstone/.wdm/drivers/chromedriver/mac64/110.0.5481/chromedriver] found in cache
+[32mINFO    [0m root:test_api_admin.py:24 {'Category': 'men', 'Title': 'x', 'Description': 'x', 'Price': '0', 'Texture': 'x', 'Wash': 'x', 'Place of Product': 'x', 'Note': 'x', 'ColorIDs': '2,3', 'Sizes': 'L,XL', 'Story': 'x', 'Main Image': 'sample image', 'Other Image 1': '', 'Other Image 2': 'sample image', 'Unnamed: 14': 'Success'}
