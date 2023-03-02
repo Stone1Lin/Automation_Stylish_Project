@@ -1,5 +1,4 @@
 # Automation_Stylish_Project
-Automation_Stylish_Project
 
 Programming Language
 ----------------------
